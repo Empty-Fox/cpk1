@@ -85,7 +85,7 @@ function validateEmail(email) {
     } else {
         $result_wrong.fadeIn();
         $email_border.css("border", "1px solid red"); 
-        setTimeout(function(){  $result_wrong.fadeOut() }, 2000);
+        // setTimeout(function(){  $result_wrong.fadeOut() }, 2000);
     }
     return false;
    
@@ -105,9 +105,9 @@ function validateEmail(email) {
     } else {
         $result_wrong2.fadeIn();
         $email_border2.css("border", "1px solid red");  
-        setTimeout(function(){  $result_wrong2.fadeOut() }, 2000);
+        // setTimeout(function(){  $result_wrong2.fadeOut() }, 2000);
     }
-   
+    return false;
   }
   
   $("#validate").on("click", validate);
