@@ -47,7 +47,15 @@ a:hover {
       display: inline-block;
       margin-top: 200px;
   }
-
+.btnVac {
+    padding: 1em 6em;
+}
+.email_market {
+    font-weight: 600;
+    background: linear-gradient(to right, #c9365a 0%,#43206c 96%);
+     -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
   .btnVac:hover::after {
     z-index: 10;
     content: 'VACANCIES';
@@ -97,6 +105,9 @@ a:hover {
 .iconsCompany44 {
     margin-left: -76px;
 }
+.t-cover, .t-cover__filter {
+    height: 100vh;
+}
 @media only screen and (max-width:1100px){
     .t-container {
         padding-left: 50px;
@@ -141,6 +152,9 @@ a:hover {
 
 }
 @media only screen and (max-width:419px){
+    .btnVac {
+        padding: 1em 4em;
+    }
     .iconsCompany11 {
         margin-left: -45px;
     }
@@ -185,6 +199,16 @@ u {
 }
 
 @media only screen and (max-width:350px){
+    .t-cover__wrapper {
+        width: 90%;
+    }
+    .btnVac {
+       
+        padding: 1em 4em;
+    }
+    .email_market {
+        font-size: 28px;
+    }
     .row2 {
         display: block;
         padding-top: 20px;
@@ -194,9 +218,9 @@ u {
         padding-bottom: 40px;
     }
     .t-descr {
-        padding-left: 40px;
-        padding-bottom: 40px;        
-        padding-right: 40px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        padding-right: 10px;
     }
     .t181__title {
         font-size: 42px;
@@ -208,8 +232,18 @@ u {
     .btnVac {
         margin-top: 40px;
     }
+   
+    .jobOpen {
+        padding: 0px 5px 0px 5px;
+    }
 }
 @media only screen and (max-width:300px){
+    .btnVac {
+        margin-top: 120px;
+    }
+    .email_market {
+        font-size: 22px;
+    }
     u {
         font-size: 18px;
     }
