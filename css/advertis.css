@@ -8,9 +8,6 @@
     margin-left: 10%;
 
 }
-.resources-bonuses .column-block.active img {
-    filter: brightness(0) invert(1);
-}
 .itemTitle {
     text-align: center;
     padding: 20px;
@@ -340,6 +337,7 @@
 
 .resources-bonuses .column-block.active {
     color: #fff;
+    filter: brightness(0) invert(1);
 }
 
 .resources-bonuses .resources-bonuses-holder .bg-slide {
@@ -561,12 +559,18 @@ ul {
     color: #6b6b70;
 }
 
-
-@media screen and (max-width:1025px) {
+@media screen and (max-width:1150px){
+    #rec89868138 .tn-elem[data-elem-id="1551096173491"] {    
+        top: 405px;
+    }
+    #rec89868138 .tn-elem[data-elem-id="1551096180262"] {       
+        top: 450px;
+    }
     .t396__artboard_brandText {
-        height: 15vh;
+        height: 25vh;
     }
 }
+
 
 @media screen and (max-width: 960px) {
     .howWorks {
@@ -639,9 +643,7 @@ ul {
         overflow-x: hidden;
     }
 
-    .t396__artboard_brandText {
-        height: 22vh;
-    }
+ 
 
     #testimonials-list .item {
         margin-bottom: 0 !important;
@@ -743,6 +745,18 @@ ul {
     .resources-bonuses .description {
         max-width: 300px;
     }
+    #testimonials-list .item {       
+        padding: 0px;
+        padding-bottom: 40px;
+    }
+    .owl-carousel.owl-drag .owl-item.active.center::after {       
+        top: 0px;       
+        margin-left: 0;
+    }
+    .owl-carousel.owl-drag .owl-item.active::after {       
+        top: 10px;
+        left: 0px;
+    }
 }
 
 @media screen and (max-width:700px) {
@@ -759,6 +773,9 @@ ul {
     #rec85438594 .tn-elem[data-elem-id="1470210011265"] .tn-atom {
         font-size: 22px;
     }
+    #rec89868138 .tn-elem[data-elem-id="1551093174595"] .tn-atom {      
+        font-size: 40px;
+    }
 }
 
 @media screen and (max-width:600px) {
@@ -770,6 +787,12 @@ ul {
         width: 90%;
         margin-left: 5%;
     }
+    #rec89868138 .tn-elem[data-elem-id="1551096173491"] {    
+        margin: 0;
+        left: 5%;
+        width: 90%;
+    }
+
 }
 
 @media screen and (max-width:550px) {
@@ -785,9 +808,7 @@ ul {
     #rec89868138 .tn-elem[data-elem-id="1551093174595"] {
         top: 200px;
     }
-    #rec89868138 .tn-elem[data-elem-id="1551096173491"] {
-        top: 300px;
-    }
+  
     #rec89868138 .tn-elem[data-elem-id="1551096173491"] {
         width: 80%;
         left: 0;
@@ -811,6 +832,9 @@ ul {
     .resources-bonuses .icon-holder {
         margin-right: inherit;
     }
+    #rec89868138 .tn-elem[data-elem-id="1551093174595"] .tn-atom {
+        font-size: 30px;
+    }
 
 }
 
@@ -828,15 +852,16 @@ ul {
         top: 250px;
     }
 
-    #rec89868138 .tn-elem[data-elem-id="1551093174595"] .tn-atom {
-        font-size: 40px
-    }
 }
 
 
 @media screen and (max-width:450px) {
-   
-
+    .resources-bonuses .icon-holder {
+       margin-right: 20px;
+   }
+    .row {
+        display: revert;
+    }
     #rec85438594 .tn-elem[data-elem-id="1470210011265"] {
         left: 10%;
         width: 80%;
@@ -905,17 +930,18 @@ ul {
         
     }
     #rec89868138 .tn-elem[data-elem-id="1551093174595"] .tn-atom {
-        font-size: 30px;
+        font-size: 30px;        
+        line-height: 35px;
     }
     #rec89868138 .tn-elem[data-elem-id="1551096173491"] {
-        top: 300px;
+        top: 380px;
     }
     #rec89868138 .tn-elem[data-elem-id="1551096173491"] .tn-atom {
         font-size: 18px;
         line-height: 16px;
     }
     #rec89868138 .tn-elem[data-elem-id="1551096180262"] {
-        top: 350px;
+        top: 400px;
     }
     .title_resourse {
         width: 90%;
@@ -934,9 +960,15 @@ ul {
     .t396__artboard_brandText {
         height: 30vh;
     }
+ 
 }
 
 @media screen and (max-width:361px) {
+    #rec85438594 .t396__filter {      
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
     .title_resourse {
         padding: 20px;
     }
@@ -948,18 +980,11 @@ ul {
         font-size: 30px;
     }
 
-    #rec89868138 .tn-elem[data-elem-id="1551096173491"] {
-        top: 250px;
-    }
 
     #rec89868138 .tn-elem[data-elem-id="1551096173491"] .tn-atom {
         color: #ffffff;
         font-size: 18px;
         line-height: 20px;
-    }
-
-    #rec89868138 .tn-elem[data-elem-id="1551096180262"] {
-        top: 300px;
     }
 
     .resources-bonuses .icon-holder {
