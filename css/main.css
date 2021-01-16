@@ -15,7 +15,15 @@ body {
 .counter {
     text-align: center;
 }
-
+.fullscreen-bg::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: '';
+    background-color: rgb(7 7 7 / 35%);
+}
 .counter p {
     font-size: 40px;
     font-weight: 100;
@@ -330,12 +338,10 @@ body {
     background-repeat: no-repeat;
     background-size: 100% auto;
     height: 100%;
-    width: 70%;
-    margin-left: 20%;
+    width: 100%;
+    margin-left: 0%;
     position: absolute;
     z-index: -2;
-
-
 
 }
 .section2_textColumn {
@@ -1798,15 +1804,6 @@ display: block;
         height: auto;
         z-index: 2;   
     }
-
-    .r_image {   
-        background-image: url(../img/unnamed.jpg);
-        background-repeat: no-repeat;
-        background-size: 110% auto;
-        height: 100%;       
-        position: absolute;
-         
-    }
     .Our_productionS {
         padding-top:30px
     }
@@ -1835,14 +1832,8 @@ display: block;
     .main-header .nav-with-separator li {
         padding: 4px 15px;
     }
-    .r_image {
-    background-size: auto 100%;
-    height: 100%;
-    width: 100%;
-    margin-left: -20px;
-}
-.btn {
-    width: 90%;
+
+.btn {    
     font-size: 20px;
 }
 .column h2 {
@@ -1863,10 +1854,7 @@ display: block;
     .section2_textColumn {
         height: auto;
     }
-    .r_image {
-        background-size: 100% 50%;
-        margin-left: 0px;
-    }
+
 }
 
 @media only screen and (max-width:980px){
@@ -1882,10 +1870,7 @@ display: block;
         margin-top: 10px;   
         font-size: 18px;    
     }
-    .r_image {      
-        margin-left: 0;
-    }
-
+  
     .text_Whether {
         width: 80%;
     }
@@ -1913,10 +1898,7 @@ display: block;
     }
     .btn {
         text-align: center;
-        font-size: 1em;
-    }
-    .r_image {
-        background-size: 109% 90%;       
+        font-size: 1.5em;
     }
     .btn1 {
         margin-top: 20px;
@@ -1931,7 +1913,8 @@ display: block;
 
 @media only screen and (max-width:800px){
     .btn {
-        padding: 5px;
+        padding: 10px;        
+        margin-left: 10%;
     }
     .section2_textColumn p {
         height: auto;
@@ -2156,8 +2139,12 @@ display: block;
     }
     .btn {
         width: 100%;
-        font-size: .6em;
+        margin-left: 0;
         text-align: center;
+        font-size: 1em;
+    }
+    .btn p {
+        white-space: break-spaces;
     }
     .btn:hover{
         padding: 5px;

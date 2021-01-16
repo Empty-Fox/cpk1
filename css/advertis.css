@@ -8,6 +8,9 @@
     margin-left: 10%;
 
 }
+.resources-bonuses .column-block.active img {
+    filter: brightness(0) invert(1);
+}
 .itemTitle {
     text-align: center;
     padding: 20px;
