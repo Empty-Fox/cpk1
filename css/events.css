@@ -364,7 +364,7 @@ box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 @media screen and (max-width:460px){
     .btnEvents {
         padding: 1em 8em;
-        margin-left: 15%;
+        margin-left: 11%;
     }
     .ukr {
         text-align: center;
@@ -399,7 +399,8 @@ box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
   
     .btnEvents {
-        padding: 1em 5em;
+        padding: 1em 8em;
+        margin-left: 7%;
     }
     #rec83028643 .tn-elem[data-elem-id="1470209944682"] {
         top: 190px;
@@ -417,5 +418,15 @@ box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     #rec83028643 .tn-elem[data-elem-id="1470210011265"] {
         top: 306px;
+    }
+    .btnEvents {
+        padding: 1em 5em;
+        margin-left: 5%;
+    }
+}
+@media screen and (max-width:300px){
+    .btnEvents {
+        padding: 1em 5em;
+        margin-left: 11%;
     }
 }
