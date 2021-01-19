@@ -137,3 +137,11 @@ if ($(window).width() < 820) {
     }
 
     ///////////////////////////////////////////////////
+
+
+    // $(".description").hover(function(){
+    //     $(this).css("font-size", "22px");
+    //     console.log('hover')
+    //     }, function(){
+    //         $(this).css("font-size", "18px");
+    //   });

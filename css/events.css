@@ -139,7 +139,10 @@
 }
 
 .form_inputs {
-    margin-bottom: 20px;
+    margin-bottom: 20px;    
+    z-index: -9999999999999999999999999999999999999999999;
+   position: inherit;
+
 }
 
 .form_inputs input:nth-child(1) {
