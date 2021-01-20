@@ -60,7 +60,6 @@ a {
 }
 #blogForm {
     display: block;
-    margin-top: -80px;
 }
 #blogForm input {
     color: #000;                               
@@ -79,7 +78,6 @@ a {
 
 #blogForm2 {
     display: block;
-    margin-top: -120px;
 }
 #blogForm2 input {
     color: #000;                               
@@ -104,7 +102,7 @@ a {
     left: 10%;
     width: 80%;
 }
-}
+
 .btnBlog {
     margin-top:10px;
 }
@@ -225,7 +223,7 @@ a {
     width: 100%;
 }
 .row.row2 .column {
-    color:#3d3c3c;
+    color:rgb(80, 78, 78);
     width: 50%;
     margin: 0;
 }
@@ -269,7 +267,7 @@ a {
 .column h2 {
     font-size: 28px;
     line-height: 1.17;
-    color: #3d3c3c;
+    color:rgb(80, 78, 78);
     padding-bottom: 0;
 }
 
@@ -279,8 +277,8 @@ a {
     line-height: 1.55;
 }
 .tn-atom a {
-    color:#db7a1f !important;
-    border-bottom-color: #db7a1f;
+    color:#f94d4b !important;
+    border-bottom-color: #f94d4b;
 }
 .row.row2 p:first-child {
     font-size: 16px;
@@ -293,7 +291,7 @@ a {
     text-align: center;
 }
 .t396__artboard.t396__artboard1 .t396__elem1 h3 {
-    color: #000000;
+    color:rgb(80, 78, 78);
     font-size: 40px;
     font-family: 'OpinionPro',Arial,sans-serif;
     line-height: 1.55;
@@ -308,7 +306,7 @@ a {
     text-align: center;
 }
 .t396__elem2 >div {
-    color: #000000;
+    color:rgb(80, 78, 78);
     font-size: 20px;
     line-height: 1.55;
     font-weight: 400;
@@ -317,7 +315,7 @@ a {
     border-style: solid;
 }
 .t396__elem3 {
-    top: 120px;
+    top: 140px;
     width: 35%;
     margin-left: auto;
     margin-right: auto;
@@ -325,7 +323,7 @@ a {
     position: inherit;
 }
 .t396__elem3 .tn-atom {
-    color: #000000;
+    color:rgb(80, 78, 78);
     font-size: 14px;
     font-family: 'OpinionPro',Arial,sans-serif;
     line-height: 1.55;

@@ -32,7 +32,7 @@
 
 .t-text {    
     font-weight: 300;
-    color: #000
+    color:rgb(80, 78, 78)
 }
 
 .t-text_xs {
@@ -86,7 +86,7 @@
 
 .t-name {  
     font-weight: 600;
-    color: #000
+    color:rgb(80, 78, 78)
 }
 
 .t-name_xs {
@@ -141,7 +141,7 @@
 
 .t-title {    
     font-weight: 600;
-    color: #000
+    color:rgb(80, 78, 78)
 }
 
 .t-title_xxs {
@@ -181,7 +181,7 @@
 
 .t-descr {   
     font-weight: 300;
-    color: #000
+    color:rgb(80, 78, 78)
 }
 
 .t-descr_xxs {
@@ -2785,7 +2785,7 @@ img:not([src]) {
     z-index: 1;
     width: 34px;
     height: 34px;
-    background-color: #222;
+    background: linear-gradient(90deg, rgba(67, 32, 108, 1) 21%, rgba(201, 54, 90, 1) 100%);
     border-radius: 100%;
     border: 2px solid #fff
 }

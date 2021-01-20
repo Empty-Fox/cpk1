@@ -58,12 +58,12 @@
                                     <li><a href="careers.html">Careers</a></li>
                                     <li><a href="blog.html">Blog</a></li>
                                     <li><a href="events.html">Events</a></li>
-                                    <li class="dropdown current-menu-item"><a style="padding-bottom: 0;" class="dropdown-toggle"
-                                            data-toggle="dropdown">Account <b class="caret"></b></a>
+                                    <li class="dropdown current-menu-item"><a style="padding-bottom: 0;"
+                                            class="dropdown-toggle" data-toggle="dropdown">Account <b
+                                                class="caret"></b></a>
                                         <ul class="dropdown-menu" style="display: none;">
                                             <li class="sign"><a сlass="sign_a" href="signIn.html">Sign in</a></li>
-                                            <li class="sign"><a сlass="sign_a" href="https://my.cpark.pro/v2/sign/up"
-                                                    target="_blank">Sign up </a></li>
+                                            <li class="sign"><a сlass="sign_a" href="signUp.html">Sign up </a></li>
                                         </ul>
                                     </li>
 
@@ -102,7 +102,7 @@
                                 <div class="dropbtn burger_active" onclick="BurgerDropdownMenu()">Account
                                     <div id="myDropdown" class="dropdown-content">
                                         <a href="signIn.html">Sign in</a>
-                                        <a href="https://my.cpark.pro/v2/sign/up" target="_blank">Sign up</a>
+                                        <a href="signUp.html">Sign up</a>
                                     </div>
                                 </div>
                                 <div class="dropbtn" onclick="BurgerDropdownMenu1()">
@@ -140,14 +140,13 @@
                     filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#99000000', endColorstr='#b2000000');">
                 </div>
                 <div class="t-container">
-                  
-                        <div class="t-cover__wrapper t-valign_middle"
-                            style="height:72vh; position: relative;z-index: 1;">                           
-                                        <div class="t181__title">
-                                            <div style="text-align:center; font-size: 48px;">LOG IN
-                                            </div>
-                                        </div>                                
-                        </div>                    
+
+                    <div class="t-cover__wrapper t-valign_middle" style="height:72vh; position: relative;z-index: 1;">
+                        <div class="t181__title">
+                            <div style="text-align:center; font-size: 48px;">LOG IN
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -157,52 +156,80 @@
 
     <div>
 
-        <div class="sc-jDwBTQ ioCJmC"><span class="jLpmCm" style="background: linear-gradient(to right, #37b8eb 0%,#ed0c6e 96%);
+        <div class="sc-jDwBTQ ioCJmC" id="authorization_form">
+            <span class="jLpmCm" style="background: linear-gradient(to right, #37b8eb 0%,#ed0c6e 96%);
             text-transform: uppercase;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;">Authorization</span>
             <div class="sc-gPEVay klhcVW">
-                <form class="dvqqKA" id="formsignIn" 
-                name="formsignIn" role="form" action="" method="POST">
+                <form class="dvqqKA" id="formsignIn" name="formsignIn" role="form" action="" method="POST">
                     <div class="drzuZL">
                         <div class="sc-gZMcBi heBcqP">
-                            <input type="email" name="email" id="emailSignIn" class="FWMkc" value="" placeholder="Email">
-                            
+                            <input type="email" name="email" id="emailSignIn" class="FWMkc" value=""
+                                placeholder="Email">
+                        </div>
                     </div>
+
+                        <div class="drzuZL">
+                            <div class="sc-gZMcBi heBcqP">
+                                <input type="password" name="password" id="passwordSignIn" class="FWMkc" value=""
+                                    placeholder="Password">
+                            </div>
+                        </div>
+                        <div class="sc-chPdSV jjiXGi">
+                            <div class="_4l9mcz4RGmyUoh8hZbkpA _25veDakdTfj3J9fVw7ftat">
+                                <input class="" type="checkbox"
+                                    name="6lhd6hnbji" id="6lhd6hnbji" value="false"><label
+                                    class="_352KT2P-3WUXROXyPoia-4" for="6lhd6hnbji"><span
+                                        class="_352KT2P-3WUXROXyPoia-4">Remember Me</span></label>
+                            </div>
+                        </div>
+                        <div class="sc-jzJRlG inMaaF">
+                            <button type="submit" class="btn_advertisers btnSign" id="validateSignIN">
+                                <span>Sign In</span></button>
+                            <a class="sc-kAzzGY hwmkGX" href="signUp.html">Create Account</a>
+                        </div>
+
+                        <div class="sc-kgoBCf bPusaZ">
+                            <a class="sc-kAzzGY hwmkGX" onclick="openRecoverPassword()">Password Recovering</a>
+                            <div class="sc-kGXeez kxhkdq"><a class="sc-kAzzGY hwmkGX" target="_blank"
+                                    href="terms.html">Terms And Conditions</a><a class="sc-kAzzGY hwmkGX" target="_blank"
+                                    href="privacy.html">Privacy Policy</a></div>
+                        </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- ///////////////////////////forgot password//////////////// -->
+
+        <div class="sc-jDwBTQ ioCJmC" id="password_recovering_form" style="display: none;">
+            <span class="jLpmCm" style="background: linear-gradient(to right, #37b8eb 0%,#ed0c6e 96%);
+            text-transform: uppercase;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;">Password Recovering</span>
+            <div class="sc-gPEVay klhcVW">
+                <form class="dvqqKA" id="formPasswordRecovering" name="formPasswordRecovering" role="form" action=""
+                    method="POST">
                     <div class="drzuZL">
                         <div class="sc-gZMcBi heBcqP">
-                            <input type="password" name="password" id="passwordSignIn" class="FWMkc" value="" placeholder="Password"></div>
-                    </div>
-                    <div class="sc-chPdSV jjiXGi">
-                        <div class="_4l9mcz4RGmyUoh8hZbkpA _25veDakdTfj3J9fVw7ftat"><input class="" type="checkbox"
-                                name="6lhd6hnbji" id="6lhd6hnbji" value="false"><label class="_352KT2P-3WUXROXyPoia-4"
-                                for="6lhd6hnbji"><span class="_352KT2P-3WUXROXyPoia-4">Remember Me</span></label></div>
-                    </div>
+                            <input type="email" name="emailRecovering" id="emailRecovering" class="FWMkc" value=""
+                                placeholder="Enter email to get link for password recovering">
+                        </div>
+                    </div>           
+               
                     <div class="sc-jzJRlG inMaaF">
-                        <button type="submit" class="btn_advertisers btnSign" id="validateSignIN">
-                            <span>Sign In</span></button>  
-                        
-                        
-                        <a class="sc-kAzzGY hwmkGX" href="/v2/sign/up">Create Account</a></div>
-                    <div class="sc-kgoBCf bPusaZ"><a class="sc-kAzzGY hwmkGX" href="/v2/sign/password/reset">Password
-                            Recovering</a>
-                        <div class="sc-kGXeez kxhkdq"><a class="sc-kAzzGY hwmkGX" target="_blank" href="/v2/terms">Terms
-                                And Conditions</a><a class="sc-kAzzGY hwmkGX" target="_blank" href="/v2/privacy">Privacy
-                                Policy</a></div>
+                        <button type="submit" class="btn_advertisers btnRecovering" id="validateRecovering">
+                            <span>GET LINK</span></button>
+                        <a class="sc-kAzzGY hwmkGX" href="signIn.html">Sign In</a>
                     </div>
                 </form>
             </div>
         </div>
+
+
     </div>
 
 
-    <div id="rec86235125" class="r t-rec">
-        <div class="t396">
-            <div class="t396__artboard" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-                <div class="t396__carrier t-bgimg" data-original="img/contact-us-block.jpg"> </div>
-            </div>
-        </div>
-    </div>
 
     <div id="rec86235127">
         <div class='t396'>
@@ -253,6 +280,15 @@
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
     AOS.init();
+</script>
+
+<script>
+
+    function openRecoverPassword() {
+        document.getElementById("authorization_form").style.display = "none";
+        document.getElementById("password_recovering_form").style.display = "block";
+    }
+
 </script>
 
 </html>

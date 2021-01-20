@@ -263,12 +263,18 @@
     z-index: 2;
     padding-top: 45px;
     padding-bottom: 45px;
-    color: #656c71;
+    color:rgb(80, 78, 78);
     -webkit-transition: all .3s ease;
     -o-transition: all .3s ease;
     transition: all .3s ease;
 }
-
+.rotateimage .icon-holder {
+    transform: inherit;
+    transition: all 0.3s;
+}
+.rotateimage:hover .icon-holder {
+    transform: scale(1.2);
+}
 .resources-bonuses .title-holder {
     text-align: center;
     margin-bottom: 52px;

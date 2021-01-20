@@ -1,5 +1,6 @@
 * {
     font-family: 'Monda', sans-serif; 
+    
 }
 html, body {
     scroll-behavior: smooth;
@@ -9,7 +10,7 @@ body {
     font-family: 'Monda', sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
-    color: #333;
+    color:rgb(80, 78, 78);
     background-color: #fbfaff;
 }
 .counter {
@@ -259,7 +260,7 @@ body {
 }
 
 .nav-active {
-    background-color: #00000087;
+    background-color: #000000;
     height: 130px !important;
 }
 
@@ -404,25 +405,28 @@ body {
     background: linear-gradient(90deg, rgba(67,32,108,1) 21%, rgba(201,54,90,1) 100%);
     border: none;
 }
+
 .btn {
     content: '';
     z-index: -1;    
     border-radius: .25em;
-    border: solid 2px white;
-    background-color: rgba(0, 0, 0, 0.005);    
+    background: rgb(67,32,108);
+    background: linear-gradient(90deg, rgba(67,32,108,1) 21%, rgba(201,54,90,1) 100%); 
     font-size: 26px;
     padding: 20px;
+    background-size: 300% 200%;
+    animation: gradient1 5s ease infinite;   
     transition: padding 1s; 
     display: block; 
     margin-left: auto;
     margin-right: auto; 
     margin-top: 100px; 
     letter-spacing: 2px;
+    border: none;
 }
 
 .btn:hover {
-    background: rgb(67,32,108);
-    background: linear-gradient(90deg, rgba(67,32,108,1) 21%, rgba(201,54,90,1) 100%);
+    
     border: none;
     color: white;
     background-size: 200% 200%;
@@ -456,6 +460,19 @@ body {
     animation: gradientIcon 15s ease infinite;
 }
 @keyframes gradient {
+	0% {
+        background-position: 0% 50%;
+	}
+	50% {
+        background-position: 100% 50%;
+       
+	}
+	100% {
+        background-position: 0% 50%;
+        
+	}
+}
+@keyframes gradient1 {
 	0% {
         background-position: 0% 50%;
 	}
@@ -1521,9 +1538,7 @@ animation: AnimationName 17s ease infinite;
     margin-top: 0;
     margin-bottom: 0;
 }
-.resources-bonuses .column-block.active img {
 
-}
 .Our_productionS_p {
     color: rgb(255, 255, 255);
     font-size: 22px; 
@@ -1537,6 +1552,8 @@ animation: AnimationName 17s ease infinite;
 
 .weGenerate {
     font-size: 26px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .text_Whether {
