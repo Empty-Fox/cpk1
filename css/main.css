@@ -395,16 +395,30 @@ body {
 .btn_advertisers {
     position: relative;
     display: inline-block;
-    padding: 1em 3em;
+    /* padding: 1.5em 3em; */
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-size: 1rem;
+    /* font-size: 1rem; */
     border-radius: .125em;   
     border: none;
     background: rgb(67,32,108);
     background: linear-gradient(90deg, rgba(67,32,108,1) 21%, rgba(201,54,90,1) 100%);
     border: none;
+    width: 300px;
+    height: 60px;
+    font-size: 18px;
+    line-height: 18px;
 }
+.btn_advertisers {
+    margin-top: 100px;  
+}
+
+.btn_advertisers span {
+
+    position: relative;
+    transition: 0.5s;
+}
+
 
 .btn {
     content: '';
@@ -500,16 +514,6 @@ body {
 }
 
 
-.btn_advertisers {
-    margin-top: 100px;
-    padding: 1em 1.4em;
-}
-
-.btn_advertisers span {
-
-    position: relative;
-    transition: 0.5s;
-}
 
 
 .btn1 span {
@@ -605,7 +609,7 @@ body {
 .btn_advertisers:hover::after {
     z-index: 10;
     content: 'Became CPARK Advertiser';
-    padding: 1em 1em;
+    padding: 1.5em 1em;
     text-decoration: none;
     color: #fff;
     font-size: 1rem;
@@ -1332,14 +1336,7 @@ animation: AnimationName 17s ease infinite;
 
 /* ////////////////////////////////////events */
 
-#rec83028643 .tn-elem[data-elem-id="1470209944682"] {
-    color: #fcf9f9;
-    text-align: center;
-    z-index: 2;
-    top: 311px;
-    left: calc(50% - 300px + 0px);
-    width: 600px;
-}
+
 
 #rec83028643 .tn-elem[data-elem-id="1470209944682"] .tn-atom {
     color: #fcf9f9;
@@ -1518,6 +1515,7 @@ animation: AnimationName 17s ease infinite;
     color: rgb(255, 255, 255);
     margin-top: 0;
     margin-bottom: 0;
+    padding-top: 100px;
 }
 
 .Our_productionS_p {
@@ -1528,6 +1526,7 @@ animation: AnimationName 17s ease infinite;
     margin-left: auto; 
     margin-right: auto; 
     padding-bottom: 100px;
+   
     margin-bottom: 0;
 }
 
@@ -1802,9 +1801,7 @@ display: block;
         height: auto;
         z-index: 2;   
     }
-    .Our_productionS {
-        padding-top:30px
-    }
+  
     .Our_productionS_p {
         padding-bottom: 50px;
     }

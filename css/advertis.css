@@ -823,7 +823,7 @@ ul {
         margin-left: 10%;
     }
     #rec89868138 .tn-elem[data-elem-id="1551096173491"] .tn-atom {       
-        line-height: 18px;
+        line-height: 22px;
     }
     .title_resourse {
         width: 90%;
@@ -834,9 +834,7 @@ ul {
     .title_resourse1 {
         font-size: 30px;
     }
-    .title_resourse2 {
-        margin-top: -30px;
-    }
+ 
     .resources-bonuses .icon-holder {
         margin-right: inherit;
     }
@@ -946,7 +944,7 @@ ul {
     }
     #rec89868138 .tn-elem[data-elem-id="1551096173491"] .tn-atom {
         font-size: 18px;
-        line-height: 16px;
+        line-height: 18px;
     }
     #rec89868138 .tn-elem[data-elem-id="1551096180262"] {
         top: 400px;
@@ -959,7 +957,6 @@ ul {
     .title_resourse2 {
         font-size: 16px;
         line-height: 16px;
-        margin-top: -40px;
     }
     .title_resourse1 {
         font-size: 28px;
@@ -985,9 +982,14 @@ ul {
     }
 
     #rec89868138 .tn-elem[data-elem-id="1551093174595"] .tn-atom {
-        font-size: 30px;
+        font-size: 20px;
     }
-
+    #rec89868138 .tn-elem[data-elem-id="1551096173491"] {
+        top: 290px;
+    }
+    #rec89868138 .tn-elem[data-elem-id="1551096180262"] {
+        top: 320px;
+    }
 
     #rec89868138 .tn-elem[data-elem-id="1551096173491"] .tn-atom {
         color: #ffffff;
@@ -1016,11 +1018,17 @@ ul {
     }
 
     #rec89868138 .tn-elem[data-elem-id="1551096173491"] {
-        top: 400px;
+        top: 360px;
     }
 
     #rec89868138 .tn-elem[data-elem-id="1551096180262"] {
-        top: 450px;
+        top: 400px;
+    }
+    .btn_advertisers {    
+        width: 80%;
+        height: 60px;
+        font-size: 1rem;
+        line-height: 1rem;
     }
 }
 

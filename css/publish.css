@@ -21,6 +21,13 @@ body {
         background-clip: text;
        -webkit-text-fill-color:transparent;
 }
+.iconMore1 {
+    font-size: 4em;
+}
+.iconMore2 {
+    font-size: 4em;
+    margin-left: 12px !important;
+}
 i.fas , i.fa {
     display: inline;
     margin-left: 15px;

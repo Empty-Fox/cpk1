@@ -9,7 +9,14 @@
     -webkit-text-fill-color: transparent;
     font-weight: 700;
 }
-
+#rec83028643 .tn-elem[data-elem-id="1470209944682"] {
+    color: #fcf9f9;
+    text-align: center;
+    z-index: 2;
+    top: 250px;
+    left: calc(50% - 300px + 0px);
+    width: 600px;
+}
 .vc_separator .vc_sep_holder .vc_sep_line {
     height: 1px;
     border-top: 1px solid #EBEBEB;
