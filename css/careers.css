@@ -3,7 +3,24 @@
     position: relative;
     cursor:pointer;
 }
-
+.containerForicon {
+    padding:30px; 
+    padding-top:15px;
+    padding-bottom:30px;
+    background-color:#fafafa;
+    width: 80%;
+    margin-left: 10%;
+}
+.t-cover__arrow {
+    cursor: pointer; cursor: pointer;
+    margin-top: 200px;
+    text-align: center;
+}
+#about {
+    padding-top: 80px;
+    width: 80%;
+    margin-left: 10%;
+}
 @keyframes mymove {
     from {top: 0px;}
     to {top: 20px;}
@@ -41,9 +58,12 @@ a:hover {
     text-align: center;
   }
 
-
+  .t-container {
+      width: 100%;
+    max-width: 100%;
+}
   .t-cover__wrapper {
-      width: 80%;
+      width: 100%;
       display: inline-block;
       margin-top: 200px;
   }
@@ -62,12 +82,15 @@ a:hover {
     padding: 1em 1em;
     text-decoration: none;
     color: #fff;
-    font-size: 1rem;
+    font-size: 18px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .jobOpen {
     padding-top:15px;
     padding-bottom:0px;
+    padding: 30px;
+    width: 80%;
+    margin-left: 10%;
 }
 .affilManag {
     background-color:#ffffff; 
@@ -108,6 +131,11 @@ a:hover {
 .t-cover, .t-cover__filter {
     height: 100vh;
 }
+.column2, .column1 {
+text-align: center;
+padding-top: 20px;
+padding-bottom: 30px;
+}
 @media only screen and (max-width:1100px){
     .t-container {
         padding-left: 50px;
@@ -118,11 +146,18 @@ a:hover {
         overflow-x: hidden;
     }
 }
+@media only screen and (max-width:850px){
+    .t-cover__arrow {       
+        margin-top: 70px;
+    }
+}
 @media only screen and (max-width:600px){
     .t-descr_xl {
         font-size: 18px;
     }
-  
+  .t-title {
+      display: contents;
+  }
     .t181__title {
         font-size: 62px;
         line-height: 1;
@@ -132,6 +167,22 @@ a:hover {
         padding-bottom: 40px;
         
     }
+    .row2 {
+        display: block;
+    }
+    .jobOpen {
+        padding: 20px;
+        width: 100%;
+        margin: 0;
+    }
+    .t-container1 {
+        padding: 0;
+    }
+    #about {
+        width: 100%;
+        margin: 0;
+        padding: 20px;
+    }
 }
 @media only screen and (max-width:500px){
     .jobOpen {
@@ -139,6 +190,7 @@ a:hover {
     }
     .t-container1 {
         padding: 0;
+        
     }
     .column_c {
         width: 100%;
@@ -149,9 +201,40 @@ a:hover {
     .row2 {
         flex-wrap: inherit;
     }
+    .t-container {
+        padding: 0;
+    }
 
 }
 @media only screen and (max-width:419px){
+    .containerForicon {        
+        padding-top: 50px;
+        width: 100%;
+        margin-left: 0;
+    }
+    .t497__textwrapper {
+        padding-left: 10px;
+    }
+    .t-container1 {
+        margin-top: -80px;
+    }
+    .blockAbout, .blockJob {
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    .t-container2 {
+        margin-top: -80px;
+    }
+    .t-title {
+        display: contents;
+    }
+    .jobOpen {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding: 10px;
+        width: 100%;
+        margin-left: 0;
+    }
     .btnVac {
         padding: 1em 4em;
     }
@@ -172,6 +255,9 @@ a:hover {
 .affilManag {
     margin-top: -70px;
 }
+.t-container1 {
+    margin-top: 0px;
+}
 .column_c {
     padding: 0;
     margin: 0;
@@ -180,27 +266,34 @@ a:hover {
     font-size:52px;
     line-height:1;
 }
+.t-title {
+    display: contents;
+}
+
 u {
     font-size: 20px;
 }
-.t-container {
-    padding-left: 10px;
-    padding-right: 10px;
-}
-.container_icon {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-}
+
 .t-descr {
-    padding-left: 20px;
     padding-bottom: 20px;
+}
+
+.t497__textwrapper {
+    padding-left: 10px;
+}
+.jobOpen {
+    width: 100%;
+    margin-left: 0;
 }
 }
 
 @media only screen and (max-width:350px){
     .t-cover__wrapper {
-        width: 90%;
+        width: 100%;
+    }
+    .containerForicon {
+        padding: 10px;
+       
     }
     .btnVac {
        
@@ -214,7 +307,6 @@ u {
         padding-top: 20px;
     }
     .container_icon {
-        padding-left: 40px;
         padding-bottom: 40px;
     }
     .t-descr {
@@ -265,6 +357,12 @@ u {
     .youWill {
         padding: 0;
 
+    }
+    .t396__elem_btn {
+        display: contents;
+    }
+    .btn_advertisers {       
+        width: 100%;
     }
   
 }
