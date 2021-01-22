@@ -1,34 +1,3 @@
-.t-body {
-    margin: 0
-}
-
-#allrecords {
-    -webkit-font-smoothing: antialiased;
-    background-color: none
-}
-
-#allrecords a {
-    color: #ff8562;
-    text-decoration: none
-}
-
-#allrecords a[href^=tel] {
-    color: inherit;
-    text-decoration: none
-}
-
-#allrecords ol {
-    padding-left: 22px
-}
-
-#allrecords ul {
-    padding-left: 20px
-}
-
-#allrecords b,#allrecords strong {
-    font-weight: 700
-}
-
 
 .t-text {    
     font-weight: 300;
@@ -40,48 +9,9 @@
     line-height: 1.55
 }
 
-.t-text_sm {
-    font-size: 18px;
-    line-height: 1.55
-}
-
 .t-text_md {
     font-size: 20px;
     line-height: 1.55
-}
-
-.t-text_lg {
-    font-size: 22px;
-    line-height: 1.55
-}
-
-.t-text_weight_plus {
-    font-weight: 400
-}
-
-.t-text-impact {   
-    font-weight: 300;
-    color: #000
-}
-
-.t-text-impact_xs {
-    font-size: 26px;
-    line-height: 1.5
-}
-
-.t-text-impact_sm {
-    font-size: 32px;
-    line-height: 1.35
-}
-
-.t-text-impact_md {
-    font-size: 38px;
-    line-height: 1.35
-}
-
-.t-text-impact_lg {
-    font-size: 42px;
-    line-height: 1.23
 }
 
 .t-name {  
@@ -89,15 +19,6 @@
     color:rgb(80, 78, 78)
 }
 
-.t-name_xs {
-    font-size: 16px;
-    line-height: 1.35
-}
-
-.t-name_sm {
-    font-size: 18px;
-    line-height: 1.35
-}
 
 .t-name_md {
     font-size: 20px;
@@ -114,69 +35,21 @@
     line-height: 1.35
 }
 
-.t-heading {  
-    font-weight: 600;
-    color: #000
-}
-
-.t-heading_xs {
-    font-size: 26px;
-    line-height: 1.23
-}
-
-.t-heading_sm {
-    font-size: 28px;
-    line-height: 1.17
-}
-
-.t-heading_md {
-    font-size: 30px;
-    line-height: 1.17
-}
-
-.t-heading_lg {
-    font-size: 32px;
-    line-height: 1.17
-}
-
 .t-title {    
     font-weight: 600;
     color:rgb(80, 78, 78)
 }
 
-.t-title_xxs {
-    font-size: 36px;
-    line-height: 1.23
-}
 
 .t-title_xs {
     font-size: 42px;
     line-height: 1.23
 }
 
-.t-title_sm {
-    font-size: 48px;
-    line-height: 1.23
-}
 
 .t-title_md {
     font-size: 52px;
     line-height: 1.23
-}
-
-.t-title_lg {
-    font-size: 64px;
-    line-height: 1.23
-}
-
-.t-title_xl {
-    font-size: 72px;
-    line-height: 1.17
-}
-
-.t-title_xxl {
-    font-size: 82px;
-    line-height: 1.17
 }
 
 .t-descr {   
@@ -184,25 +57,16 @@
     color:rgb(80, 78, 78)
 }
 
-.t-descr_xxs {
-    font-size: 14px;
-    line-height: 1.55
-}
+
 
 .t-descr_xs {
     font-size: 16px;
     line-height: 1.55;    
     padding-bottom: 40px;
 }
-
-.t-descr_sm {
-    font-size: 18px;
-    line-height: 1.55
-}
-
-.t-descr_md {
-    font-size: 20px;
-    line-height: 1.55
+.t-descr_xl {
+    font-size: 24px;
+    line-height: 1.5
 }
 
 .t-descr_lg {
@@ -210,268 +74,6 @@
     line-height: 1.55
 }
 
-.t-descr_xl {
-    font-size: 24px;
-    line-height: 1.5
-}
-
-.t-descr_xxl {
-    font-size: 26px;
-    line-height: 1.45
-}
-
-.t-descr_xxxl {
-    font-size: 30px;
-    line-height: 1.45;
-    letter-spacing: .45
-}
-
-.t-uptitle {
-    font-weight: 600;
-    color: #000;
-    letter-spacing: 2.5px
-}
-
-.t-uptitle_xs {
-    font-size: 12px
-}
-
-.t-uptitle_sm {
-    font-size: 14px
-}
-
-.t-uptitle_md {
-    font-size: 16px
-}
-
-.t-uptitle_lg {
-    font-size: 18px
-}
-
-.t-uptitle_xl {
-    font-size: 20px;
-    letter-spacing: 2px
-}
-
-.t-uptitle_xxl {
-    font-size: 22px;
-    letter-spacing: 2px
-}
-
-.t-uptitle_xxxl {
-    font-size: 24px;
-    letter-spacing: 2px
-}
-
-
-.t-records {
-    -webkit-font_smoothing: antialiased;
-    background-color: none
-}
-
-.t-records a {
-    color: #ff8562;
-    text-decoration: none
-}
-
-.t-records a[href^=tel] {
-    color: inherit;
-    text-decoration: none
-}
-
-.t-records ol {
-    padding-left: 22px;
-    margin-top: 0;
-    margin-bottom: 10px
-}
-
-.t-records ul {
-    padding-left: 20px;
-    margin-top: 0;
-    margin-bottom: 10px
-}
-
-.t-cover {
-    height: 700px;
-    width: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-color: #000;
-    background-repeat: no-repeat;
-    background-position: center center;
-    text-align: center;
-    vertical-align: middle;
-    position: relative;
-    background-attachment: fixed;
-    overflow: hidden
-}
-
-.t-cover__carrier {
-    height: 700px;
-    width: 100%;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    text-align: center;
-    vertical-align: middle;
-    position: relative;
-    background-attachment: fixed;
-    transform: translate3d(0,0,0);
-    -webkit-transform: translate3d(0,0,0);
-    -moz-transform: unset
-}
-
-@supports (-ms-ime-align:auto) {
-    .t-cover__carrier {
-        transform: unset
-    }
-}
-
-.t-cover__carrier.loading {
-    opacity: 0
-}
-
-.t-cover__carrier[data-content-cover-bg=""].loading {
-    opacity: 1!important
-}
-
-.t-cover__carrier.loaded {
-    opacity: 1;
-    transition: opacity 700ms
-}
-
-.t-cover__filter {
-    height: 700px;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0
-}
-
-.t-cover .t-container,.t-cover .t-container_100,.t-cover .t-container_10,.t-cover .t-container_8 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0
-}
-
-.t-cover__wrapper {
-    height: 700px;
-    display: table-cell;
-    width: 1200px
-}
-
-.t-cover__wrapper span.space {
-    display: inline-block;
-    height: 100%;
-    width: 1px
-}
-
-
-.t-cover__arrow-wrapper_animated {
-    animation: t-arrow-bottom 1.7s infinite ease
-}
-
-.t-cover__arrow {
-    position: absolute;
-    z-index: 9;
-    bottom: 40px;
-    right: 0;
-    left: 0;
-    text-align: center
-}
-
-.t-cover__arrow-wrapper {
-    display: inline-block;
-    -webkit-transition: all ease-in-out 0.2s;
-    -moz-transition: all ease-in-out 0.2s;
-    -o-transition: all ease-in-out 0.2s;
-    transition: all ease-in-out 0.2s;
-    cursor: pointer
-}
-
-.t-cover__arrow-wrapper:hover {
-    opacity: .7
-}
-
-.t-cover__arrow-svg {
-    fill: #fff
-}
-
-.t-btn {
-    display: inline-block;
-    height: 60px;
-    border: 0 none;
-    font-size: 16px;
-    padding-left: 60px;
-    padding-right: 60px;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    font-weight: 700;
-    background-image: none;
-    cursor: pointer;
-    -webkit-appearance: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    -o-user-select: none;
-    user-select: none;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box
-}
-
-.t-btn td {
-    vertical-align: middle
-}
-
-.t-btn_sending {
-    opacity: .5
-}
-
-
-
-.t-btn_xs {
-    height: 35px;
-    font-size: 13px;
-    padding-left: 15px;
-    padding-right: 15px
-}
-
-.t-btn_sm {
-    height: 45px;
-    font-size: 14px;
-    padding-left: 30px;
-    padding-right: 30px
-}
-
-.t-btn_lg {
-    height: 60px;
-    font-size: 22px;
-    padding-left: 70px;
-    padding-right: 70px
-}
-
-.t-btn_xl {
-    height: 80px;
-    font-size: 26px;
-    padding-left: 80px;
-    padding-right: 80px
-}
-
-.t-btn_xxl {
-    height: 100px;
-    font-size: 30px;
-    padding-left: 90px;
-    padding-right: 90px
-}
 
 
 .t-submit {
@@ -494,9 +96,6 @@
     background: transparent
 }
 
-.t-submit_sending {
-    opacity: .5
-}
 
 .t-input {
     margin: 0;
@@ -520,291 +119,9 @@
     border: 0
 }
 
-.t-input_bbonly {
-    outline: none;
-    padding-left: 0!important;
-    padding-right: 0!important;
-    border-top: 0!important;
-    border-right: 0!important;
-    border-left: 0!important;
-    background-color: transparent!important;
-    border-radius: 0!important;
-    border-bottom: 1px solid
-}
-
-.t-input_pvis {
-    padding: 26px 20px 10px 20px
-}
-
-.t-input__vis-ph {
-    font-size: 16px;
-    line-height: 1;
-    opacity: .5;
-    position: absolute;
-    left: 20px;
-    top: 22px;
-    height: 16px;
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-    -webkit-transition: transform 0.2s linear;
-    transition: transform 0.2s linear;
-    -webkit-transform-origin: left;
-    transform-origin: left;
-    pointer-events: none;
-    white-space: nowrap
-}
-
-.t-input:focus~.t-input__vis-ph,.t-input_has-content+.t-input__vis-ph {
-    -webkit-transform: translateY(-12px) scale(.7);
-    transform: translateY(-12px) scale(.7)
-}
 
 .t-input:invalid {
     box-shadow: none
-}
-
-.t-input-group_cb div[data-customstyle=yes] {
-    display: inline;
-    vertical-align: middle
-}
-
-.t-form_bbonly .t-input__vis-ph {
-    left: 0px!important
-}
-
-.t-form_bbonly .js-error-control-box .t-input__vis-ph {
-    left: 10px!important
-}
-
-.t-input-group_ta textarea.t-input {
-    resize: vertical
-}
-
-.t-select {
-    width: 100%;
-    box-sizing: border-box;
-    cursor: pointer;
-    height: 60px;
-    padding: 0 45px 0 20px;
-    font-size: 16px;
-    line-height: 1.33;
-    outline: 0;
-    border: 0;
-    border-radius: 0;
-    background: transparent;
-    -webkit-appearance: none;
-    appearance: none;
-    -moz-appearance: none
-}
-
-.t-select_bbonly {
-    outline: none;
-    padding-left: 0!important;
-    padding-right: 0!important;
-    border-top: 0!important;
-    border-right: 0!important;
-    border-left: 0!important;
-    background-color: transparent!important;
-    border-radius: 0!important
-}
-
-.t-select_bbonly option {
-    color: #000;
-    background-color: #fff
-}
-
-.t-select__wrapper {
-    position: relative
-}
-
-.t-select__wrapper:after {
-    content: ' ';
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 6px 5px 0 5px;
-    border-color: #000 transparent transparent transparent;
-    position: absolute;
-    right: 20px;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    pointer-events: none
-}
-
-.t-select::-ms-expand {
-    width: 0;
-    height: 0;
-    opacity: 0
-}
-
-.t-select__wrapper_bbonly::after {
-    right: 0px!important
-}
-
-.t-checkbox__control {
-    display: block;
-    position: relative;
-    cursor: pointer
-}
-
-.t-checkbox__control .t-checkbox {
-    position: absolute;
-    z-index: -1;
-    opacity: 0
-}
-
-.t-checkbox__indicator {
-    position: relative;
-    display: inline-block;
-    vertical-align: middle;
-    height: 20px;
-    width: 20px;
-    border: 2px solid #000;
-    box-sizing: border-box;
-    margin-right: 10px;
-    -webkit-transition: all 0.2s;
-    transition: all 0.2s;
-    opacity: .6
-}
-
-.t-checkbox__indicator:after {
-    content: '';
-    position: absolute;
-    display: none;
-    left: 6px;
-    top: 2px;
-    width: 3px;
-    height: 8px;
-    border: solid #000;
-    border-width: 0 2px 2px 0;
-    transform: rotate(45deg)
-}
-
-.t-checkbox__control .t-checkbox:checked~.t-checkbox__indicator {
-    opacity: 1
-}
-
-.t-checkbox__control .t-checkbox:checked~.t-checkbox__indicator:after {
-    display: block
-}
-
-.t-checkbox__labeltext,.t-checkbox__labeltext div {
-    display: inline
-}
-
-.t-checkboxes__wrapper .t-checkbox__control {
-    margin: 10px 0
-}
-
-.t-radio {
-    position: absolute;
-    z-index: -1;
-    opacity: 0
-}
-
-.t-radio__control {
-    display: table;
-    position: relative;
-    cursor: pointer;
-    margin: 0 0 10px 0
-}
-
-.t-radio__control:first-child {
-    margin: 3px 0 10px 0
-}
-
-.t-radio__control:last-child {
-    margin: 0 0 0 0
-}
-
-.t-radio__indicator {
-    position: relative;
-    display: inline-block;
-    vertical-align: middle;
-    height: 20px;
-    width: 20px;
-    border-color: #000;
-    border-style: solid;
-    border-width: 2px;
-    box-sizing: border-box;
-    border-radius: 50%;
-    margin-right: 10px;
-    -webkit-transition: all 0.2s;
-    transition: all 0.2s;
-    opacity: .6
-}
-
-.t-radio__indicator:after {
-    content: '';
-    width: 10px;
-    height: 10px;
-    background: #000;
-    border-radius: 50%;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    opacity: 0;
-    -webkit-transition: all 0.2s;
-    transition: all 0.2s
-}
-
-.t-radio__control .t-radio:checked~.t-radio__indicator:after {
-    opacity: 1
-}
-
-.t-radio__control .t-radio:checked~.t-radio__indicator {
-    opacity: 1
-}
-
-.t-inputquantity {
-    width: 70px;
-    text-align: center;
-    margin-left: .5rem;
-    margin-right: .5rem
-}
-
-.t-inputquantity__btn {
-    font-size: 26px;
-    cursor: pointer;
-    margin-left: .5rem;
-    margin-right: .5rem;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -khtml-user-select: none;
-    -ms-user-select: none
-}
-
-.t-form .uploadcare-widget-button {
-    background: #333;
-    line-height: 1.4;
-    font-size: 14px
-}
-
-.t-form .uploadcare-widget-button:hover {
-    background: #444
-}
-
-.t-input-title {
-    display: block;
-    vertical-align: middle;
-    height: 100%;
-    padding-right: 10px
-}
-
-.t-input-subtitle {
-    display: block;
-    vertical-align: middle;
-    height: 100%;
-    padding-right: 10px
-}
-
-.t-form__bottom-text {
-    margin-top: 30px;
-    text-align: center
 }
 
 .t-input-error {
@@ -813,33 +130,27 @@
     font-size: 13px;
     margin-top: 5px
 }
+/* 
+////////////////////////////////////////////////////////////////////////////////Перевірено вище...................................
+ */
 
-.t-form .js-error-control-box .t-input-error {
-    display: block
-}
 
-.t-form .js-error-control-box .t-input:not(.t-input-phonemask),.t-form .js-error-control-box .t-checkbox__control,.t-form .js-error-control-box .t-checkboxes__wrapper,.t-form .js-error-control-box .t-select,.t-form .js-error-control-box .t-radio__wrapper,.t-form .js-error-control-box .uploadcare-widget {
-    border: 1px solid red!important
-}
 
-.t-form .js-error-control-box .t-checkboxes__wrapper,.t-form .js-error-control-box .t-radio__wrapper,.t-form .js-error-control-box .t-checkbox__control {
-    padding: 10px
-}
 
-.t-form .js-error-control-box .t-checkboxes__wrapper .t-checkbox__control {
-    border: none!important;
-    padding: 0
-}
 
-.t-form .js-error-control-box .t-input.t-input_bbonly {
-    padding-left: 10px!important
-}
 
-.t-form__errorbox-bottom {
-    display: none
-}
+
+
+
+
+
+
+
+
+
 
 .t-form__errorbox-wrapper {
+
     background: #F95D51;
     padding: 10px;
     text-align: center;
@@ -2827,7 +2138,9 @@ img:not([src]) {
 }
 
 .t563__title {
-    margin-top: 20px
+    margin-top: 20px;
+    height: 45px;
+    
 }
 
 .t563__text {

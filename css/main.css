@@ -97,11 +97,11 @@ body {
 }
 
 .column {
-    float: left;
-    width: 50%;
+    margin-left: 10%;
+    width: 80%;
     padding: 10px;
     height: 100vh;
-    padding-top: 120px;
+    padding-top: 220px;
     text-align: center;
     color: white;
 
@@ -986,25 +986,6 @@ animation: AnimationName 17s ease infinite;
 
 
 
-#rec86459928 .tn-elem[data-elem-id="1470210011265"] {
-    color: #ffffff;
-    text-align: center;
-    z-index: 4;
-    top: 206px;
-    left: calc(50% - 480px + 0px);
-    width: 960px;
-}
-
-#rec86459928 .tn-elem[data-elem-id="1481028460033"] {
-    color: #ffffff;
-    text-align: center;
-    z-index: 5;
-    top: 353px;
-    left: calc(50% - 300px + 0px);
-    width: 600px;
-}
-             
-
 
 #rec86459928 .tn-elem[data-elem-id="1481028507037"] {
     color: #ffffff;
@@ -1876,9 +1857,7 @@ display: block;
 
 @media only screen and (max-width:980px){
 
-    .column h2 {
-        font-size: 40px;
-    }
+   
     .weGenerate {
         padding:20px;
         font-size: 22px;
@@ -1930,11 +1909,13 @@ display: block;
 
 @media only screen and (max-width:800px){
     .btn {
-        padding: 10px;        
-        margin-left: 10%;
+        padding: 10px;      
     }
     .section2_textColumn p {
         height: auto;
+    }
+    .btn p {
+        white-space: break-spaces;
     }
 }
 @media only screen and (max-width:750px) {
@@ -1965,9 +1946,7 @@ display: block;
     .section2_textColumn p  {
         font-size: 16px; 
     }
-    .column h2 {
-        font-size: 30px;
-    }
+  
     .row div:nth-child(2) h1 {
         font-size: 30px;
       }
@@ -1976,9 +1955,7 @@ display: block;
     }
 }
 @media only screen and (max-width:600px) {
-    .column h2 {
-        font-size: 30px;
-    }
+  
     .counter h1 {      
         font-size: 30px;
     }
@@ -2056,7 +2033,7 @@ display: block;
         width: 100%;
     }
     .column h2, .counter h1 {
-        font-size: 20px;
+        font-size: 40px;
     }
 }
 @media only screen and (max-width:419px) {
@@ -2121,6 +2098,8 @@ display: block;
     .column {
         width: 100%;
         height: auto;
+        margin-left: 0;
+        margin-top: 150px;
     }
     .row div:nth-child(1){
         order: 2;
@@ -2173,7 +2152,7 @@ display: block;
         font-size: 18px;
     }
     .column h2, .counter h1 {
-        font-size: 22px;
+        font-size: 32px;
     }
     .weGenerate {
         font-size: 18px;
