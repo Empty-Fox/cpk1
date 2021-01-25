@@ -51,7 +51,7 @@ if ($(window).width() < 820) {
               center: true,
               items: 1,
               margin: 0,
-              autoplay: true,
+            //   autoplay: true,
               dots: true,
               autoplayTimeout: 8500,
               smartSpeed: 450,
