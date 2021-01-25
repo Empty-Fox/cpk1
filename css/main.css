@@ -2114,9 +2114,7 @@ display: block;
    .column h2, .counter h1 {
     font-size: 40px;
     }
-    .row div:nth-child(2) h1 {
-        font-size: 16px;
-    }
+  
     .counter hr {    
         height: 1px;
         width: 35%;
