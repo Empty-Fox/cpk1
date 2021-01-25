@@ -18,7 +18,25 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    
 
+    <!-- /////////////////////////////////////////////////////// -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/js/bootstrap-multiselect.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/css/bootstrap-multiselect.css" type="text/css" />
+
+
+  <!-- ///////////////////////////////////////////////////////////// -->
     <!-- Scroll animation -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
@@ -31,7 +49,104 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/signIn.css">
 
-</head>
+<style>
+    .multiselect-container>li>a>label>input[type=checkbox] {
+        margin-bottom: 5px;
+        display: none;
+    }
+    .multiselect-container>li>a>label {
+    padding: 3px 20px 3px 0px;
+}
+.multiselect-selected-text{
+    display: inline-block;
+    max-width: 100%;
+    word-break: break-all;
+    white-space: normal;
+}
+    .btn {
+    z-index: 3;
+    margin-top: 0;
+    background: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 0px;
+    padding-bottom:20px ;
+    margin-bottom: 10px;
+    color: rgb(97, 97, 106);
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Monda', sans-serif;
+
+    }
+    .btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default {
+    color: inherit;
+    background-color: transparent; 
+    border: none;
+    /* display: contents; */
+}
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover {
+    color: inherit;
+    background-color: transparent; 
+    border: none;
+    padding: 0;
+}
+.btn-group.open .dropdown-toggle {
+       box-shadow: none;
+}
+    .btn-group {
+        width: 100%;
+        outline: 0px;
+        border-width: 0px 0px 1px;
+        border-top-style: initial;
+        border-right-style: initial;
+        border-left-style: initial;
+        border-top-color: initial;
+        border-right-color: initial;
+        border-left-color: initial;
+        border-image: initial;
+        height: 32px;
+        width: 100%;
+        font-size: 14px;
+        color: rgb(51, 51, 60);
+        border-bottom-style: solid;
+        border-bottom-color: rgb(202, 202, 205);
+        background-color: transparent;
+    }
+    .dropdown-menu {
+    background-color: #fbfaff;
+    width: 100%;
+    padding: 0;
+    
+    padding-bottom: 100px;
+    
+    };
+    .dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
+    background-color: rgba(67,32,108); 
+    background-image: linear-gradient(to bottom,rgba(67,32,108,1),rgba(201,54,90,1) 100%) !important;
+    /* background-image: linear-gradient(90deg, rgba(67,32,108,1) 21%, rgba(201,54,90,1) 100%); */
+    background-repeat: repeat-x;
+}
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
+    background-color: rgba(67,32,108); 
+    background-image: linear-gradient(to bottom,rgba(68, 32, 108, 0.584), rgba(201, 54, 91, 0.404) 100%) !important;
+}
+.drzuZSpace .btn-group{
+height: 62px;
+}
+
+
+.btn-group-vertical>.btn.active, .btn-group-vertical>.btn:active, .btn-group-vertical>.btn:focus, .btn-group-vertical>.btn:hover, .btn-group>.btn.active, .btn-group>.btn:active, .btn-group>.btn:focus, .btn-group>.btn:hover {
+    z-index: 2;
+    background-color: transparent;
+    color:rgb(97, 97, 106);
+    padding: 0;
+   
+}
+.btn-danger.active, .btn-danger:active, .btn-default.active, .btn-default:active, .btn-info.active, .btn-info:active, .btn-primary.active, .btn-primary:active, .btn-success.active, .btn-success:active, .btn-warning.active, .btn-warning:active {
+   
+    box-shadow: none;
+}
+</style>
 
 <body>
 
@@ -133,7 +248,7 @@
             <div class="t-cover" style="background-position:bottom;            
             background: linear-gradient(to bottom, rgba(173, 56, 103, 0.308), rgba(23, 2, 59, 0.185)), url('img/oUJqne.jpg');
             ">
-               
+
                 <div class="t-container">
 
                     <div class="t-cover__wrapper t-valign_middle" style="height:72vh; position: relative;z-index: 1;">
@@ -187,205 +302,89 @@
 
 
                         <div class="drzuZL">
+                            <div class="sc-brqgnP hCScNH">   
+                                 <select id="select1" multiple="multiple" >
+                                    <option  value="Bootstrap">Native</option>
+                                    <option value="HTML">Banner</option>
+                                    <option value="CSS">Popup</option>
+                                    <option value="angular">Social media</option>
+                                    <option  value="Bootstrap">Push</option>
+                                    <option value="HTML">Sms</option>
+                                    <option value="CSS">E-mail</option>
+                                    <option value="angular">Paid search</option>
+                                    <option value="CSS">In app</option>
+                                    <option value="angular">Other</option>
+                                  </select>
+
+                            </div>
+                        </div>
+                       
+
+                        <div class="drzuZL">                      
+                            <div class="sc-brqgnP hCScNH">   
+                                <select id="select2" multiple="multiple" >
+                                   <option  value="Bootstrap">Dating</option>
+                                   <option value="HTML">Mobile Content</option>
+                                   <option value="CSS">Gaming</option>
+                                   <option value="angular">iGaming</option>
+                                   <option  value="Bootstrap">Sweepstakes</option>
+                                   <option value="HTML">Finance</option>
+                                   <option value="CSS">App Installs</option>
+                                   <option value="angular">Mainstream</option>
+                                   <option value="CSS">Pin Submits</option>
+                                   <option value="angular">E-commerce</option>
+                                   <option value="angular">Health & Beauty</option>
+                                   <option value="CSS">Travel</option>
+                                   <option value="angular">Other</option>
+                                 </select>
+
+                           </div>
+                        </div>
+                        <div class="drzuZL">                        
+                            <div class="sc-brqgnP hCScNH">   
+                                <select id="select3" multiple="multiple" >
+                                   <option  value="Bootstrap">0-5K $</option>
+                                   <option value="HTML">5-10K $</option>
+                                   <option value="CSS">10-20K $</option>
+                                   <option value="angular">20-50K $</option>
+                                   <option  value="Bootstrap">> 50K $</option>                                  
+                                 </select>
+
+                           </div>
+                        </div>
+
+                        <div class="drzuZL drzuZSpace">
+                            <div class="sc-brqgnP hCScNH">   
+                                <select id="select4" multiple="multiple" >
+                                   <option  value="Bootstrap"> < 0,5 year</option>
+                                   <option value="HTML">0,5 - 1 year</option>
+                                   <option value="CSS">1 -2 years</option>
+                                   <option value="angular">2 - 5 years</option>
+                                   <option  value="Bootstrap">> 5 years</option>                                  
+                                 </select>
+
+                           </div>
+                        </div>
+
+                        <div class="drzuZL">
                             <div class="sc-brqgnP hCScNH">
-                                <p class="sc-jWBwVP fxtcah"><span>Traffic types*</span></p>
-                                <div>
-                                    <div class="_3kSBfF3TVF1X5lP3RNkuho _1ts2PRiZMAcZZSvGzaQXF-"><input class=""
-                                            type="checkbox" name="5so17rf8ldi" id="5so17rf8ldi"><label
-                                            class="_3JLFIvj339x0rpoXFLccdE css-7c2d00" for="5so17rf8ldi"><span
-                                                class="_3JLFIvj339x0rpoXFLccdE css-7c2d00">Native</span></label></div>
-                                    <div class="_3kSBfF3TVF1X5lP3RNkuho _1ts2PRiZMAcZZSvGzaQXF-"><input class=""
-                                            type="checkbox" name="3a986rh114c" id="3a986rh114c"><label
-                                            class="_3JLFIvj339x0rpoXFLccdE css-7c2d00" for="3a986rh114c"><span
-                                                class="_3JLFIvj339x0rpoXFLccdE css-7c2d00">Banner</span></label></div>
-                                    <div class="_3kSBfF3TVF1X5lP3RNkuho _1ts2PRiZMAcZZSvGzaQXF-"><input class=""
-                                            type="checkbox" name="5d6d7butcug" id="5d6d7butcug"><label
-                                            class="_3JLFIvj339x0rpoXFLccdE css-7c2d00" for="5d6d7butcug"><span
-                                                class="_3JLFIvj339x0rpoXFLccdE css-7c2d00">Popup</span></label></div>
-                                    <div class="_3kSBfF3TVF1X5lP3RNkuho _1ts2PRiZMAcZZSvGzaQXF-"><input class=""
-                                            type="checkbox" name="8tklu77c5rg" id="8tklu77c5rg"><label
-                                            class="_3JLFIvj339x0rpoXFLccdE css-7c2d00" for="8tklu77c5rg"><span
-                                                class="_3JLFIvj339x0rpoXFLccdE css-7c2d00">Social media</span></label>
-                                    </div>
-                                    <div class="_3kSBfF3TVF1X5lP3RNkuho _1ts2PRiZMAcZZSvGzaQXF-"><input class=""
-                                            type="checkbox" name="3du3mdgv9cs" id="3du3mdgv9cs"><label
-                                            class="_3JLFIvj339x0rpoXFLccdE css-7c2d00" for="3du3mdgv9cs"><span
-                                                class="_3JLFIvj339x0rpoXFLccdE css-7c2d00">Push</span></label></div>
-                                    <div class="_3kSBfF3TVF1X5lP3RNkuho _1ts2PRiZMAcZZSvGzaQXF-"><input class=""
-                                            type="checkbox" name="414534ere1c" id="414534ere1c"><label
-                                            class="_3JLFIvj339x0rpoXFLccdE css-7c2d00" for="414534ere1c"><span
-                                                class="_3JLFIvj339x0rpoXFLccdE css-7c2d00">Sms</span></label></div>
-                                    <div class="_3kSBfF3TVF1X5lP3RNkuho _1ts2PRiZMAcZZSvGzaQXF-"><input class=""
-                                            type="checkbox" name="hrqa2dfc67c" id="hrqa2dfc67c"><label
-                                            class="_3JLFIvj339x0rpoXFLccdE css-7c2d00" for="hrqa2dfc67c"><span
-                                                class="_3JLFIvj339x0rpoXFLccdE css-7c2d00">E-mail</span></label></div>
-                                    <div class="_3kSBfF3TVF1X5lP3RNkuho _1ts2PRiZMAcZZSvGzaQXF-"><input class=""
-                                            type="checkbox" name="2arvtuivlaag" id="2arvtuivlaag"><label
-                                            class="_3JLFIvj339x0rpoXFLccdE css-7c2d00" for="2arvtuivlaag"><span
-                                                class="_3JLFIvj339x0rpoXFLccdE css-7c2d00">Paid search</span></label>
-                                    </div>
-                                    <div class="_3kSBfF3TVF1X5lP3RNkuho _1ts2PRiZMAcZZSvGzaQXF-"><input class=""
-                                            type="checkbox" name="6gjbv8mu2pb" id="6gjbv8mu2pb"><label
-                                            class="_3JLFIvj339x0rpoXFLccdE css-7c2d00" for="6gjbv8mu2pb"><span
-                                                class="_3JLFIvj339x0rpoXFLccdE css-7c2d00">In app</span></label></div>
-                                    <div class="_3kSBfF3TVF1X5lP3RNkuho _1ts2PRiZMAcZZSvGzaQXF-"><input class=""
-                                            type="checkbox" name="3mb8ci6jfq8g" id="3mb8ci6jfq8g"><label
-                                            class="_3JLFIvj339x0rpoXFLccdE css-7c2d00" for="3mb8ci6jfq8g"><span
-                                                class="_3JLFIvj339x0rpoXFLccdE css-7c2d00">Other</span></label></div>
+                                <div class="sc-gZMcBi heBcqP"><input type="text" class="sc-gqjmRU FWMkc" value=""
+                                        placeholder="How did you find out about us?*">
+
                                 </div>
                             </div>
                         </div>
 
                         <div class="drzuZL">
                             <div class="sc-brqgnP hCScNH">
-                                <p class="sc-jWBwVP fxtcah"><span>Which verticals are you promoting?</span><span
-                                        class="sc-cMljjf jLKNPw">*</span></p>
-                                <div>
-                                    <div class="_3kSBfF3TVF1X5lP3RNkuho _1ts2PRiZMAcZZSvGzaQXF-"><input class=""
-                                            type="checkbox" name="837a0q8411i" id="837a0q8411i"><label
-                                            class="_3JLFIvj339x0rpoXFLccdE css-7c2d00" for="837a0q8411i"><span
-                                                class="_3JLFIvj339x0rpoXFLccdE css-7c2d00">Dating</span></label></div>
-                                    <div class="_3kSBfF3TVF1X5lP3RNkuho _1ts2PRiZMAcZZSvGzaQXF-"><input class=""
-                                            type="checkbox" name="375cjf6f1g1g" id="375cjf6f1g1g"><label
-                                            class="_3JLFIvj339x0rpoXFLccdE css-7c2d00" for="375cjf6f1g1g"><span
-                                                class="_3JLFIvj339x0rpoXFLccdE css-7c2d00">Mobile Content</span></label>
-                                    </div>
-                                    <div class="_3kSBfF3TVF1X5lP3RNkuho _1ts2PRiZMAcZZSvGzaQXF-"><input class=""
-                                            type="checkbox" name="54tta0prmud" id="54tta0prmud"><label
-                                            class="_3JLFIvj339x0rpoXFLccdE css-7c2d00" for="54tta0prmud"><span
-                                                class="_3JLFIvj339x0rpoXFLccdE css-7c2d00">Gaming</span></label></div>
-                                    <div class="_3kSBfF3TVF1X5lP3RNkuho _1ts2PRiZMAcZZSvGzaQXF-"><input class=""
-                                            type="checkbox" name="31qitpvrrdvg" id="31qitpvrrdvg"><label
-                                            class="_3JLFIvj339x0rpoXFLccdE css-7c2d00" for="31qitpvrrdvg"><span
-                                                class="_3JLFIvj339x0rpoXFLccdE css-7c2d00">iGaming</span></label></div>
-                                    <div class="_3kSBfF3TVF1X5lP3RNkuho _1ts2PRiZMAcZZSvGzaQXF-"><input class=""
-                                            type="checkbox" name="62en61jj73m" id="62en61jj73m"><label
-                                            class="_3JLFIvj339x0rpoXFLccdE css-7c2d00" for="62en61jj73m"><span
-                                                class="_3JLFIvj339x0rpoXFLccdE css-7c2d00">Sweepstakes</span></label>
-                                    </div>
-                                    <div class="_3kSBfF3TVF1X5lP3RNkuho _1ts2PRiZMAcZZSvGzaQXF-"><input class=""
-                                            type="checkbox" name="387adm9db3ag" id="387adm9db3ag"><label
-                                            class="_3JLFIvj339x0rpoXFLccdE css-7c2d00" for="387adm9db3ag"><span
-                                                class="_3JLFIvj339x0rpoXFLccdE css-7c2d00">Finance</span></label></div>
-                                    <div class="_3kSBfF3TVF1X5lP3RNkuho _1ts2PRiZMAcZZSvGzaQXF-"><input class=""
-                                            type="checkbox" name="4maqcsf7its" id="4maqcsf7its"><label
-                                            class="_3JLFIvj339x0rpoXFLccdE css-7c2d00" for="4maqcsf7its"><span
-                                                class="_3JLFIvj339x0rpoXFLccdE css-7c2d00">App Installs</span></label>
-                                    </div>
-                                    <div class="_3kSBfF3TVF1X5lP3RNkuho _1ts2PRiZMAcZZSvGzaQXF-"><input class=""
-                                            type="checkbox" name="4rr8n4966ct" id="4rr8n4966ct"><label
-                                            class="_3JLFIvj339x0rpoXFLccdE css-7c2d00" for="4rr8n4966ct"><span
-                                                class="_3JLFIvj339x0rpoXFLccdE css-7c2d00">Mainstream</span></label>
-                                    </div>
-                                    <div class="_3kSBfF3TVF1X5lP3RNkuho _1ts2PRiZMAcZZSvGzaQXF-"><input class=""
-                                            type="checkbox" name="48hvme8ahgo" id="48hvme8ahgo"><label
-                                            class="_3JLFIvj339x0rpoXFLccdE css-7c2d00" for="48hvme8ahgo"><span
-                                                class="_3JLFIvj339x0rpoXFLccdE css-7c2d00">Pin Submits</span></label>
-                                    </div>
-                                    <div class="_3kSBfF3TVF1X5lP3RNkuho _1ts2PRiZMAcZZSvGzaQXF-"><input class=""
-                                            type="checkbox" name="7coonpts1k6" id="7coonpts1k6"><label
-                                            class="_3JLFIvj339x0rpoXFLccdE css-7c2d00" for="7coonpts1k6"><span
-                                                class="_3JLFIvj339x0rpoXFLccdE css-7c2d00">E-commerce</span></label>
-                                    </div>
-                                    <div class="_3kSBfF3TVF1X5lP3RNkuho _1ts2PRiZMAcZZSvGzaQXF-"><input class=""
-                                            type="checkbox" name="21n1i7tcbir" id="21n1i7tcbir"><label
-                                            class="_3JLFIvj339x0rpoXFLccdE css-7c2d00" for="21n1i7tcbir"><span
-                                                class="_3JLFIvj339x0rpoXFLccdE css-7c2d00">Health &amp;
-                                                Beauty</span></label></div>
-                                    <div class="_3kSBfF3TVF1X5lP3RNkuho _1ts2PRiZMAcZZSvGzaQXF-"><input class=""
-                                            type="checkbox" name="4natl0iji7g" id="4natl0iji7g"><label
-                                            class="_3JLFIvj339x0rpoXFLccdE css-7c2d00" for="4natl0iji7g"><span
-                                                class="_3JLFIvj339x0rpoXFLccdE css-7c2d00">Travel</span></label></div>
-                                    <div class="_3kSBfF3TVF1X5lP3RNkuho _1ts2PRiZMAcZZSvGzaQXF-"><input class=""
-                                            type="checkbox" name="4ibma3jes52" id="4ibma3jes52"><label
-                                            class="_3JLFIvj339x0rpoXFLccdE css-7c2d00" for="4ibma3jes52"><span
-                                                class="_3JLFIvj339x0rpoXFLccdE css-7c2d00">Other</span></label></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="drzuZL">
-                            <div class="sc-brqgnP hCScNH">
-                                <p class="sc-jWBwVP fxtcah">
-                                    <span>What is your regular budget?</span><span class="sc-cMljjf jLKNPw">*</span>
-                                </p>
-                                <div>
-                                    <div class="_3kSBfF3TVF1X5lP3RNkuho _1ts2PRiZMAcZZSvGzaQXF-">
-                                        <input class="" type="checkbox" name="10aiinhbddb8" id="10aiinhbddb8"><label
-                                            class="_3JLFIvj339x0rpoXFLccdE css-7c2d00" for="10aiinhbddb8"><span
-                                                class="_3JLFIvj339x0rpoXFLccdE css-7c2d00">0-5K $</span></label>
-                                    </div>
-                                    <div class="_3kSBfF3TVF1X5lP3RNkuho _1ts2PRiZMAcZZSvGzaQXF-"><input class=""
-                                            type="checkbox" name="2d8h7nrmafj" id="2d8h7nrmafj"><label
-                                            class="_3JLFIvj339x0rpoXFLccdE css-7c2d00" for="2d8h7nrmafj"><span
-                                                class="_3JLFIvj339x0rpoXFLccdE css-7c2d00">5-10K $</span></label></div>
-                                    <div class="_3kSBfF3TVF1X5lP3RNkuho _1ts2PRiZMAcZZSvGzaQXF-"><input class=""
-                                            type="checkbox" name="8vkjc397p7k" id="8vkjc397p7k"><label
-                                            class="_3JLFIvj339x0rpoXFLccdE css-7c2d00" for="8vkjc397p7k"><span
-                                                class="_3JLFIvj339x0rpoXFLccdE css-7c2d00">10-20K $</span></label></div>
-                                    <div class="_3kSBfF3TVF1X5lP3RNkuho _1ts2PRiZMAcZZSvGzaQXF-"><input class=""
-                                            type="checkbox" name="2alps3a6kg3g" id="2alps3a6kg3g"><label
-                                            class="_3JLFIvj339x0rpoXFLccdE css-7c2d00" for="2alps3a6kg3g"><span
-                                                class="_3JLFIvj339x0rpoXFLccdE css-7c2d00">20-50K $</span></label></div>
-                                    <div class="_3kSBfF3TVF1X5lP3RNkuho _1ts2PRiZMAcZZSvGzaQXF-"><input class=""
-                                            type="checkbox" name="8gu1l74ss2s" id="8gu1l74ss2s"><label
-                                            class="_3JLFIvj339x0rpoXFLccdE css-7c2d00" for="8gu1l74ss2s"><span
-                                                class="_3JLFIvj339x0rpoXFLccdE css-7c2d00">&gt; 50K $</span></label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="drzuZL">
-                            <div class="sc-brqgnP hCScNH">
-                                <p class="sc-jWBwVP fxtcah"><span>How many years of experience do you have in the
-                                        industry?</span><span class="sc-cMljjf jLKNPw">*</span></p>
-                                <div>
-                                    <div class="_3kSBfF3TVF1X5lP3RNkuho _1ts2PRiZMAcZZSvGzaQXF-"><input class=""
-                                            type="checkbox" name="37di847ve8dg" id="37di847ve8dg"><label
-                                            class="_3JLFIvj339x0rpoXFLccdE css-7c2d00" for="37di847ve8dg"><span
-                                                class="_3JLFIvj339x0rpoXFLccdE css-7c2d00">&lt; 0,5 year</span></label>
-                                    </div>
-                                    <div class="_3kSBfF3TVF1X5lP3RNkuho _1ts2PRiZMAcZZSvGzaQXF-"><input class=""
-                                            type="checkbox" name="7g8r001pj92" id="7g8r001pj92"><label
-                                            class="_3JLFIvj339x0rpoXFLccdE css-7c2d00" for="7g8r001pj92"><span
-                                                class="_3JLFIvj339x0rpoXFLccdE css-7c2d00">0,5 - 1 year</span></label>
-                                    </div>
-                                    <div class="_3kSBfF3TVF1X5lP3RNkuho _1ts2PRiZMAcZZSvGzaQXF-"><input class=""
-                                            type="checkbox" name="8aib90i13rc" id="8aib90i13rc"><label
-                                            class="_3JLFIvj339x0rpoXFLccdE css-7c2d00" for="8aib90i13rc"><span
-                                                class="_3JLFIvj339x0rpoXFLccdE css-7c2d00">1 - 2 years</span></label>
-                                    </div>
-                                    <div class="_3kSBfF3TVF1X5lP3RNkuho _1ts2PRiZMAcZZSvGzaQXF-"><input class=""
-                                            type="checkbox" name="3qtcrbjf7gq" id="3qtcrbjf7gq"><label
-                                            class="_3JLFIvj339x0rpoXFLccdE css-7c2d00" for="3qtcrbjf7gq"><span
-                                                class="_3JLFIvj339x0rpoXFLccdE css-7c2d00">2 - 5 years</span></label>
-                                    </div>
-                                    <div class="_3kSBfF3TVF1X5lP3RNkuho _1ts2PRiZMAcZZSvGzaQXF-"><input class=""
-                                            type="checkbox" name="52nkp5t1aia" id="52nkp5t1aia"><label
-                                            class="_3JLFIvj339x0rpoXFLccdE css-7c2d00" for="52nkp5t1aia"><span
-                                                class="_3JLFIvj339x0rpoXFLccdE css-7c2d00">&gt; 5 years</span></label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="drzuZL">
-                            <div class="sc-brqgnP hCScNH">
-                                <div class="sc-gZMcBi heBcqP"><input type="text" class="sc-gqjmRU FWMkc" value="" placeholder="How did you find out about us?*">
-                                   
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="drzuZL">
-                            <div class="sc-brqgnP hCScNH">
-                                <div class="sc-gZMcBi heBcqP"><input type="text" class="sc-gqjmRU FWMkc" value="" placeholder="What is your country?"></div>
+                                <div class="sc-gZMcBi heBcqP"><input type="text" class="sc-gqjmRU FWMkc" value=""
+                                        placeholder="What is your country?"></div>
                             </div>
                         </div>
 
 
                         <div class="drzuZL">
-                            <div class="sc-brqgnP hCScNH">
+                            <!-- <div class="sc-brqgnP hCScNH">
                                 <p class="sc-jWBwVP fxtcah"><span>I am</span><span class="sc-cMljjf jLKNPw">*</span></p>
                                 <div>
                                     <div class="_3kSBfF3TVF1X5lP3RNkuho _1ts2PRiZMAcZZSvGzaQXF-"><input class=""
@@ -409,13 +408,25 @@
                                                 class="_3JLFIvj339x0rpoXFLccdE css-7c2d00">a website/app/social page
                                                 owner</span></label></div>
                                 </div>
-                            </div>
+                            </div> -->
+                       
+                       
+                            <div class="sc-brqgnP hCScNH">   
+                                <select id="select5" multiple="multiple" >
+                                   <option  value="Bootstrap"> an affiliate</option>
+                                   <option value="HTML">a network</option>
+                                   <option value="CSS">an agency</option>
+                                   <option value="angular">a website/app/social page owner</option>                                                            
+                                 </select>
+
+                           </div>
                         </div>
 
 
                         <div class="drzuZL">
                             <div class="sc-brqgnP hCScNH">
-                                <div class="sc-gZMcBi heBcqP"><input type="text" class="sc-gqjmRU FWMkc" value="" placeholder="Please, include any additional information we should
+                                <div class="sc-gZMcBi heBcqP"><input type="text" class="sc-gqjmRU FWMkc" value=""
+                                        placeholder="Please, include any additional information we should
                                     know about you"></div>
                             </div>
                         </div>
@@ -427,7 +438,8 @@
                                         type="checkbox" name="29cc8o9r6f8g" id="29cc8o9r6f8g"><label
                                         class="_3JLFIvj339x0rpoXFLccdE css-7c2d00" for="29cc8o9r6f8g"><span
                                             class="_3JLFIvj339x0rpoXFLccdE css-7c2d00"><span>I agree with<a
-                                                    class="sc-hMqMXs hcWpVg" target="_blank" href="terms.html">Terms And Conditions</a></span></span></label></div>
+                                                    class="sc-hMqMXs hcWpVg" target="_blank" href="terms.html">Terms And
+                                                    Conditions</a></span></span></label></div>
                                 <div class="_3kSBfF3TVF1X5lP3RNkuho _1ts2PRiZMAcZZSvGzaQXF- css-l9drzq"><input class=""
                                         type="checkbox" name="8otrbbqgo44" id="8otrbbqgo44"><label
                                         class="_3JLFIvj339x0rpoXFLccdE css-7c2d00" for="8otrbbqgo44"><span
@@ -438,7 +450,7 @@
                                             prevention.</span></label></div>
                             </div>
                         </div>
-                    
+
                         <div class="sc-jzJRlG inMaaF">
                             <button type="submit" class="btn_advertisers btnRegister" id="">
                                 <span>Create Account</span></button>
@@ -446,7 +458,7 @@
 
                             <a class="sc-kAzzGY hwmkGX" href="signIn.html">Sign In</a>
                         </div>
-                        
+
                 </form>
             </div>
         </div>
