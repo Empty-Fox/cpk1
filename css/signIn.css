@@ -255,7 +255,9 @@ flex-direction: column;
 text-align: right;
 }
 
-
+.t181__title {
+    padding: 204px 0 38px 0 !important;
+}
 
 .btnSign {
 margin-top: 0;
@@ -390,6 +392,9 @@ box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 @media screen and (max-width:450px){
     .ioCJmC {       
         width: 90%;       
+    }
+    .hwmkGX {        
+        padding-left: 20px;
     }
 }
 
