@@ -50,6 +50,20 @@
     <link rel="stylesheet" href="css/signIn.css">
 
 <style>
+    .open>.dropdown-menu {
+    display: block;
+    border: 3px solid;
+    border-image-source: linear-gradient(90deg, rgba(67,32,108,1) 21%, rgba(201,54,90,1) 100%);
+    border-image-slice: 1;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.multiselect-container>li>a {
+    padding: 0;
+    padding-left: 10px !important;
+    
+}
     .multiselect-container>li>a>label>input[type=checkbox] {
         margin-bottom: 5px;
         display: none;
@@ -117,20 +131,18 @@
     .dropdown-menu {
     background-color: #fbfaff;
     width: 100%;
-    padding: 0;
-    
-    padding-bottom: 100px;
+    padding:0;
     
     };
+ 
     .dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
-    background-color: rgba(67,32,108); 
-    background-image: linear-gradient(to bottom,rgba(67,32,108,1),rgba(201,54,90,1) 100%) !important;
-    /* background-image: linear-gradient(90deg, rgba(67,32,108,1) 21%, rgba(201,54,90,1) 100%); */
+    background-color: rgba(67,32,108);    
+    background-image: linear-gradient(to bottom,rgba(67,32,108,1) 10%,rgba(201,54,90,1) 100%) !important;
     background-repeat: repeat-x;
 }
 .dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
     background-color: rgba(67,32,108); 
-    background-image: linear-gradient(to bottom,rgba(68, 32, 108, 0.584), rgba(201, 54, 91, 0.404) 100%) !important;
+    background-image: linear-gradient(to bottom,rgba(68, 32, 108, 0.584) 10%, rgba(201, 54, 91, 0.404) 100%) !important;
 }
 .drzuZSpace .btn-group{
 height: 62px;
@@ -303,19 +315,19 @@ height: 62px;
                         </div>
 
 
-                        <div class="drzuZL">
+                        <div class="drzuZL" >
                             <div class="sc-brqgnP hCScNH">   
                                  <select id="select1" multiple="multiple" >
-                                    <option  value="Bootstrap">Native</option>
-                                    <option value="HTML">Banner</option>
-                                    <option value="CSS">Popup</option>
-                                    <option value="angular">Social media</option>
-                                    <option  value="Bootstrap">Push</option>
-                                    <option value="HTML">Sms</option>
-                                    <option value="CSS">E-mail</option>
-                                    <option value="angular">Paid search</option>
-                                    <option value="CSS">In app</option>
-                                    <option value="angular">Other</option>
+                                    <option  value="Native">Native</option>
+                                    <option value="Banner">Banner</option>
+                                    <option value="Popup">Popup</option>
+                                    <option value="Social media">Social media</option>
+                                    <option  value="Push">Push</option>
+                                    <option value="Sms">Sms</option>
+                                    <option value="E-mail">E-mail</option>
+                                    <option value="Paid search">Paid search</option>
+                                    <option value="In app">In app</option>
+                                    <option value="Other">Other</option>
                                   </select>
 
                             </div>
@@ -325,19 +337,19 @@ height: 62px;
                         <div class="drzuZL">                      
                             <div class="sc-brqgnP hCScNH">   
                                 <select id="select2" multiple="multiple" >
-                                   <option  value="Bootstrap">Dating</option>
-                                   <option value="HTML">Mobile Content</option>
-                                   <option value="CSS">Gaming</option>
-                                   <option value="angular">iGaming</option>
-                                   <option  value="Bootstrap">Sweepstakes</option>
-                                   <option value="HTML">Finance</option>
-                                   <option value="CSS">App Installs</option>
-                                   <option value="angular">Mainstream</option>
-                                   <option value="CSS">Pin Submits</option>
-                                   <option value="angular">E-commerce</option>
-                                   <option value="angular">Health & Beauty</option>
-                                   <option value="CSS">Travel</option>
-                                   <option value="angular">Other</option>
+                                   <option  value="Dating">Dating</option>
+                                   <option value="Mobile Content">Mobile Content</option>
+                                   <option value="Gaming">Gaming</option>
+                                   <option value="iGaming">iGaming</option>
+                                   <option  value="Sweepstakes">Sweepstakes</option>
+                                   <option value="Finance">Finance</option>
+                                   <option value="App Installs">App Installs</option>
+                                   <option value="Mainstream">Mainstream</option>
+                                   <option value="Pin Submits">Pin Submits</option>
+                                   <option value="E-commerce">E-commerce</option>
+                                   <option value="Health & Beauty">Health & Beauty</option>
+                                   <option value="Travel">Travel</option>
+                                   <option value="Other">Other</option>
                                  </select>
 
                            </div>
@@ -358,11 +370,11 @@ height: 62px;
                         <div class="drzuZL drzuZSpace">
                             <div class="sc-brqgnP hCScNH">   
                                 <select id="select4" multiple="multiple" >
-                                   <option  value="Bootstrap"> < 0,5 year</option>
-                                   <option value="HTML">0,5 - 1 year</option>
-                                   <option value="CSS">1 -2 years</option>
-                                   <option value="angular">2 - 5 years</option>
-                                   <option  value="Bootstrap">> 5 years</option>                                  
+                                   <option  value="less5"> < 0,5 year</option>
+                                   <option value="less1">0,5 - 1 year</option>
+                                   <option value="less2">1 -2 years</option>
+                                   <option value="less5">2 - 5 years</option>
+                                   <option  value="more5">> 5 years</option>                                  
                                  </select>
 
                            </div>

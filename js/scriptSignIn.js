@@ -92,22 +92,28 @@ $('li.dropdown').hover(function () {
 
     $(document).ready(function() {
         $('#select1').multiselect({ 
-        nonSelectedText:'Traffic types*'
+        nonSelectedText:'Traffic types*',
+        includeSelectAllOption: true
+        
         });
 
         $('#select2').multiselect({ 
-            nonSelectedText:'Which verticals are you promoting?*'
+            nonSelectedText:'Which verticals are you promoting?*',
+            includeSelectAllOption: true
             });
 
         $('#select3').multiselect({ 
-            nonSelectedText:'What is your regular budget?*'
+            nonSelectedText:'What is your regular budget?*',
+            includeSelectAllOption: true
         })
 
         $('#select4').multiselect({ 
-            nonSelectedText:'How many years of experience do you have in the industry?*'
+            nonSelectedText:'How many years of experience do you have in the industry?*',
+            includeSelectAllOption: true
         })
         $('#select5').multiselect({ 
-            nonSelectedText:'I am*'
+            nonSelectedText:'I am*',
+            includeSelectAllOption: true
         })
         });
 
