@@ -101,15 +101,20 @@ body {
     width: 80%;
     padding: 10px;
     height: 100vh;
-    padding-top: 220px;
+    padding-top: 190px;
     text-align: center;
     color: white;
 
 }
 
 .column h2 {
-    font-size: 60px;
-    padding: 20px;
+    color: #ffffff;
+    font-size: 40px;
+    line-height: 1;
+    font-weight: 700;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
 }
 
 .row {
@@ -124,7 +129,12 @@ body {
     clear: both;
 
 }
-
+.resources-bonuses .item {
+    height: 100px;
+    margin: 0 !important;
+    align-items: flex-start !important;
+    /* background-color: darkorchid; */
+}
 html,
 body {
     font-size: 100%;
@@ -426,15 +436,15 @@ body {
     border-radius: .25em;
     background: rgb(67,32,108);
     background: linear-gradient(90deg, rgba(67,32,108,1) 21%, rgba(201,54,90,1) 100%); 
-    font-size: 26px;
-    padding: 20px;
+    font-size: 18px;
+    padding: 15px;
     background-size: 300% 200%;
     animation: gradient1 5s ease infinite;   
     transition: padding 1s; 
     display: block; 
     margin-left: auto;
     margin-right: auto; 
-    margin-top: 100px; 
+    margin-top: 40px; 
     letter-spacing: 2px;
     border: none;
 }
@@ -1760,12 +1770,16 @@ display: block;
 }
 
 #section3 h1 {
-    background: linear-gradient(to right, #37b8eb 0%,#ed0c6e 96%);
+    
+    background: linear-gradient(to right, #02b7ff 0%,#fd059e 60%);
+    
     /* background: linear-gradient(to right, #f94d4b 0%, #841f6d 96% ); */
     text-transform: uppercase;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding-top: 0;   
+  font-weight: bolder;
+ 
 }
 
 #rec89868138 .tn-elem[data-elem-id="1551096180262"] {
@@ -1828,9 +1842,6 @@ display: block;
         padding: 4px 15px;
     }
 
-.btn {    
-    font-size: 20px;
-}
 .column h2 {
     font-size: 50px;
     padding: 20px;
@@ -1861,7 +1872,6 @@ display: block;
     }
     .btn {
         margin-top: 10px;   
-        font-size: 18px;    
     }
   
     .text_Whether {
@@ -1890,8 +1900,7 @@ display: block;
         color:white;
     }
     .btn {
-        text-align: center;
-        font-size: 1.5em;
+        text-align: center;       
     }
     .btn1 {
         margin-top: 20px;
@@ -1914,6 +1923,10 @@ display: block;
     .btn p {
         white-space: break-spaces;
     }
+    .resources-bonuses .item {
+        text-align: left;
+    }
+
 }
 @media only screen and (max-width:750px) {
     .footer_menu div {       

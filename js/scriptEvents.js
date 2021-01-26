@@ -1,6 +1,6 @@
 const navbar_advertisers = document.querySelector('#nav86235111_events');
 window.onscroll = () => {
-    if (window.scrollY > 300) {
+    if (window.scrollY > 50) {
         navbar_advertisers.classList.add('nav-active');
     } else {
         navbar_advertisers.classList.remove('nav-active');

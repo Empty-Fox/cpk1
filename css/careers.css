@@ -97,10 +97,19 @@ a:hover {
     border-radius:5px; 
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
 }
+/* .t181__title h1 {   
+    color: #ffffff;
+    font-size: 40px;
+    line-height: 1;
+    font-weight: 700;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+} */
 .t181__title {
-    font-size:72px;
-    line-height:1.3;
-    opacity:1;
+    font-size: 72px;
+    line-height: 1.3;
+    opacity: 1;
     text-shadow: 0px 2px 20px rgba(0, 0, 0, 0.30);
 }
 .t-color {

@@ -258,7 +258,17 @@ text-align: right;
 .t181__title {
     padding: 204px 0 38px 0 !important;
 }
-
+.t181__title h1 {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 40px;
+    line-height: 1;
+    font-weight: 700;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    text-align: center;
+}
 .btnSign {
 margin-top: 0;
 }
