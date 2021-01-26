@@ -99,7 +99,7 @@ background-color: white;
     width: 100%;
 }
 .pub2 h2 {
-    font-size: 20px;
+    font-size: 30px;
     line-height: 1.55;
     font-weight: 400;
     background-position: center center;
@@ -215,6 +215,10 @@ background-color: white;
     .column1  {
         padding: 0;
     }
+    .pub2 h2 {
+        font-size: 28px;
+        line-height: 28px;
+    }
     .column1 h2,  .column1 p {
         padding: 20px;
         padding-right: 20px;
@@ -258,6 +262,9 @@ background-color: white;
 @media only screen and (max-width:450px){
     .pub2 {
         margin-top: 40px;
+    }
+    .pub2 h2 {
+        font-size: 20px;
     }
     .row div:nth-child(2) {
         position: initial;
