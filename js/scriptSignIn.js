@@ -103,17 +103,15 @@ $('li.dropdown').hover(function () {
             });
 
         $('#select3').multiselect({ 
-            nonSelectedText:'What is your regular budget?*',
-            includeSelectAllOption: true
+            nonSelectedText:'What is your regular budget?*'
+          
         })
 
         $('#select4').multiselect({ 
-            nonSelectedText:'How many years of experience do you have in the industry?*',
-            includeSelectAllOption: true
+            nonSelectedText:'How many years of experience do you have in the industry?*'
         })
         $('#select5').multiselect({ 
-            nonSelectedText:'I am*',
-            includeSelectAllOption: true
+            nonSelectedText:'I am*'
         })
         });
 
