@@ -1,0 +1,121 @@
+.btn-group>.btn:first-child {
+    text-align: left;
+}
+
+    .open>.dropdown-menu {
+    display: block;
+    border: 3px solid;
+    border-image-source: linear-gradient(90deg, rgba(67,32,108,1) 21%, rgba(201,54,90,1) 100%);
+    border-image-slice: 1;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.multiselect-container>li>a {
+    padding: 0;
+    padding-left: 10px !important;
+    
+}
+    .multiselect-container>li>a>label>input[type=checkbox] {
+        margin-bottom: 5px;
+        display: none;
+    }
+    .multiselect-container>li>a>label {
+    padding: 3px 20px 3px 0px;
+}
+.multiselect-selected-text{
+    display: inline-block;
+    max-width: 100%;
+    word-break: break-word;
+    white-space: normal;
+    font-size: 14px;
+    text-align: left;
+    letter-spacing: initial;
+}
+    .btn {
+    z-index: 3;
+    margin-top: 0;
+    background: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 0px;
+    padding-bottom:20px ;
+    margin-bottom: 10px;
+    color: rgb(97, 97, 106);
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Monda', sans-serif;
+
+    }
+    .btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default {
+    color: inherit;
+    background-color: transparent; 
+    border: none;
+    /* display: contents; */
+}
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover {
+    color: inherit;
+    background-color: transparent; 
+    border: none;
+    padding: 0;
+}
+.btn-group.open .dropdown-toggle {
+       box-shadow: none;
+}
+    .btn-group {
+        width: 100%;
+        outline: 0px;
+        border-width: 0px 0px 1px;
+        border-top-style: initial;
+        border-right-style: initial;
+        border-left-style: initial;
+        border-top-color: initial;
+        border-right-color: initial;
+        border-left-color: initial;
+        border-image: initial;
+        height: 32px;
+        width: 100%;
+        font-size: 14px;
+        color: rgb(51, 51, 60);
+        border-bottom-style: solid;
+        border-bottom-color: rgb(202, 202, 205);
+        background-color: transparent;
+    }
+    .dropdown-menu {
+    background-color: #fbfaff;
+    width: 100%;
+    padding:0;
+    
+    };
+ 
+    .dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
+    background-color: rgba(67,32,108);    
+    background-image: linear-gradient(to bottom,rgba(67,32,108,1) 10%,rgba(201,54,90,1) 100%) !important;
+    background-repeat: repeat-x;
+}
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
+    background-color: rgba(67,32,108); 
+    background-image: linear-gradient(to bottom,rgba(68, 32, 108, 0.584) 10%, rgba(201, 54, 91, 0.404) 100%) !important;
+}
+.drzuZSpace .btn-group{
+height: 62px;
+}
+
+
+.btn-group-vertical>.btn.active, .btn-group-vertical>.btn:active, .btn-group-vertical>.btn:focus, .btn-group-vertical>.btn:hover, .btn-group>.btn.active, .btn-group>.btn:active, .btn-group>.btn:focus, .btn-group>.btn:hover {
+    z-index: 2;
+    background-color: transparent;
+    color:rgb(97, 97, 106);
+    padding: 0;
+   
+}
+.btn-danger.active, .btn-danger:active, .btn-default.active, .btn-default:active, .btn-info.active, .btn-info:active, .btn-primary.active, .btn-primary:active, .btn-success.active, .btn-success:active, .btn-warning.active, .btn-warning:active {
+   
+    box-shadow: none;
+}
+@media screen and (max-width:450px){
+    .btn-group>.btn:first-child {
+        text-align: left;
+        display: flex;
+    }
+}
