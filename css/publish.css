@@ -88,8 +88,8 @@ background-color: white;
 .pub1 h1 {
     text-transform: uppercase; 
     color: #ffffff;
-    font-size: 40px;
-    line-height: 1;
+    font-size: 30px;
+    line-height: normal;
     font-weight: 700;
     background-position: center center;
     border-color: transparent;
@@ -113,7 +113,7 @@ background-color: white;
 .descript_titl {
     text-align: center;
     padding: 20px;
-    font-size: 38px;
+    font-size: 30px;
     max-width: initial;
     font-weight: 700;
 }
@@ -187,7 +187,7 @@ background-color: white;
         font-size: 26px;
     }
     .counter h1 {
-        font-size: 50px;
+        font-size: 40px;
     }
     #rec86459928 .tn-elem[data-elem-id="1470210011265"] {
         top: 290px;
@@ -196,7 +196,7 @@ background-color: white;
         font-size: 30px;
     }
     #rec86459928 .tn-elem[data-elem-id="1481028460033"] {
-        top: 370px;
+        top: 390px;
     }
     .pub2 h2 {
         font-size: 20px;
@@ -205,7 +205,7 @@ background-color: white;
         margin-top: 150px;
     }
     .descript_titl {
-        font-size: 28px;
+        font-size: 30px;
     }
 }
 @media only screen and (max-width:950px){
@@ -300,6 +300,9 @@ background-color: white;
     }
 }
 @media only screen and (max-width:450px){
+    .counter h1 {
+        font-size: 30px;
+    }
     .fa-gift-card.fa-4x
     {
 font-size: 3em;
@@ -323,34 +326,44 @@ padding-left: 5px;
         font-size: 28px;
     }
     .pub1 h1 {
-        font-size: 30px;
-        line-height: 30px;
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .descript_titl {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .column1 h2, .column1 p {
+        padding-bottom: 0;
     }
     #rec86459928 .tn-elem[data-elem-id="1481028460033"] {
-        top: 440px;
+        top: 380px;
     }
     .block_counter {
         margin-top: 150px;
     }
-  
+    .resources-bonuses .description {
+        font-size: 16px !important;
+    }
     .blockB {
         margin-top: 220px;
     }
  
     #rec86459928 .tn-elem[data-elem-id="1470210011265"] {
-        top: 306px;
+        top: 286px;
     }
 }
 @media only screen and (max-width:400px){
-    .column1 h2, .column1 p {
-        font-size: 18px !important;
+    .column1 h2 {
+        font-size: 16px !important;
     }
+   
     .column1 {
         float: left;
     }
         .pub1 h1 {       
-            font-size: 20px;
-            line-height: 20px;
+            font-size: 22px;
+            line-height: 26px;
         }
         .pub2 h2 {
             font-size: 18px;
@@ -365,7 +378,7 @@ padding-left: 5px;
             width: 100%;
         }
         #rec86459928 .tn-elem[data-elem-id="1481028460033"] {
-            top: 340px;
+            top: 380px;
         }
         .btnPubl {
             width: 90%;
@@ -378,11 +391,7 @@ padding-left: 5px;
         .resources-bonuses .resources-bonuses-slider {
             display: inline-flex !important;
         }
-        .descript_titl {
-            font-size: 26px;
-            line-height: 26px;
-            text-align: center;
-        }
+      
         
         .row div:nth-child(2) h2 {
             font-size: 25px;

@@ -18,8 +18,8 @@
 }
 #rec89868138 .tn-elem[data-elem-id="1551093174595"] .tn-atom {
     color: #ffffff;
-    font-size: 40px;
-    line-height: 1;
+    font-size: 32px;
+    line-height: normal;
     font-weight: 700;
     background-position: center center;
     border-color: transparent;
@@ -44,7 +44,7 @@
     text-transform: uppercase;
 }
 .title_resourse1 {
-    font-size: 38px; 
+    font-size: 32px; 
     color:rgb(80, 78, 78)
 }
 .title_resourse2 {
@@ -934,10 +934,10 @@ ul {
 
     #testimonials-list .shadow-effect p {
         margin: 20px 0 20px 0 !important;
-        line-height: 1.1 !important;
-        font-size: 1rem !important;
+        line-height:normal !important;
+        font-size: 16px !important;
         width: 95%;
-    padding-left: 5%;
+        padding-left: 5%;
     }
 
  
@@ -957,8 +957,8 @@ ul {
         
     }
     #rec89868138 .tn-elem[data-elem-id="1551093174595"] .tn-atom {
-        font-size: 26px;        
-        line-height: 30px;
+        font-size: 22px;        
+        line-height: 26px;
     }
    
     #rec89868138 .tn-elem[data-elem-id="1551096173491"] .tn-atom {
@@ -977,9 +977,13 @@ ul {
         font-size: 16px;
         line-height: 16px;
     }
-    .title_resourse1 {
-        font-size: 28px;
-        line-height: 28px;
+    .title_resourse1, .t-title_xs {
+        font-size: 22px;
+        line-height: normal;
+    }
+    .t-name_md {
+        font-size: 18px;
+        line-height: normal;
     }
     .t396__artboard_brandText {
         height: 30vh;

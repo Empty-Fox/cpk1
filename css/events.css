@@ -10,10 +10,9 @@
     font-weight: 700;
 }
 #rec83028643 .tn-elem[data-elem-id="1470209944682"] .tn-atom {
-    text-transform: uppercase;
     color: #ffffff;
-    font-size: 40px;
-    line-height: 1;
+    font-size: 32px;
+    line-height: normal;
     font-weight: 700;
     background-position: center center;
     border-color: transparent;
@@ -115,7 +114,7 @@
 }
 
 .t032__title {
-    font-size:42px;
+    font-size:32px;
 }
 
 .t-cover__arrow-svg {
@@ -146,8 +145,8 @@
 .rec89346600_title {
     width: 100%;
     text-align: center;
-    font-size: 42px;
-    line-height: 1.55;
+    font-size: 32px;
+    line-height:38px;
     font-weight: 700;
     padding-bottom: 75px;
 }
@@ -397,16 +396,12 @@ transition: 1s;
         width: 100%;
         margin-left: 0;
     }
-    #rec83028643 .tn-elem[data-elem-id="1470210011265"] {
-        top: 450px;
-    }
+    
     #rec83028643 .tn-elem[data-elem-id="1470209944682"] {       
         left: 5%;
         width: 90%;
     }
-    #rec83028643 .tn-elem[data-elem-id="1470209944682"] .tn-atom {      
-        font-size: 50px;
-    }
+   
     .tn-form__submit {
         padding-left: 0;
     }
@@ -434,14 +429,15 @@ transition: 1s;
         text-align: center;
         padding: 20px;
     }
-    #rec83028643 .tn-elem[data-elem-id="1470209944682"] .tn-atom {      
-        font-size: 40px;
-    }
+  
     #grid {
         grid-template-columns: 1fr;
     }
     .t032__descr {      
         padding: 0 20px;
+    }
+    #rec83028643 .tn-elem[data-elem-id="1470209944682"] {      
+        top: 200px;
     }
 }
 @media screen and (max-width:400px) {
