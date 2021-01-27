@@ -64,15 +64,15 @@
 
 #grid h2 {
     color:rgb(80, 78, 78);
-    line-height: inherit;     
+    line-height: 1.55;     
     font-weight: bolder;
-    font-size: 1.125rem; 
-    text-align: inherit; 
+    font-size: 22px; 
+    text-align: center;
     font-style: normal;
 }
 
 .date {
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 400; line-height: 27px;   
     color: #979797;
     margin-top: -20px;
@@ -81,8 +81,9 @@
 }
 
 .textBlock {
-    font-size: 14px;
-    line-height: 14px;
+    font-size: 18px;
+    line-height: inherit;
+    font-weight: normal;
     text-align: left;
     padding: 10px;
 }
@@ -284,7 +285,9 @@ transition: 1s;
 #rec83028643 .tn-elem[data-elem-id="1470210011265"] {
     top: 350px;
 }
-
+.t-descr_lg {
+    font-size: 18px;
+}
 @media screen and (max-width:1200px){
     #grid, .widgettitle, .vc_separator .vc_sep_holder .vc_sep_line {
         width: 80%;       

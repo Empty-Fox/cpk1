@@ -8,7 +8,7 @@ html, body {
     }
 body {
     font-family: 'Monda', sans-serif;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 1.42857143;
     color:rgb(80, 78, 78);
     background-color: #fbfaff;
@@ -447,6 +447,9 @@ body {
     margin-top: 40px; 
     letter-spacing: 2px;
     border: none;
+}
+.btn p {
+    margin: 0 0 0px;
 }
 
 .btn:hover {
@@ -1530,7 +1533,7 @@ animation: AnimationName 17s ease infinite;
 
 .Our_productionS_p {
     color: rgb(255, 255, 255);
-    font-size: 22px; 
+    font-size: 18px; 
     letter-spacing: 1px; 
     width: 980px; 
     margin-left: auto; 
@@ -1547,7 +1550,7 @@ animation: AnimationName 17s ease infinite;
 }
 
 .text_Whether {
-    font-size: 22px; 
+    font-size: 18px; 
     letter-spacing: 1px; 
     width: 980px; 
     margin-left: auto; 
