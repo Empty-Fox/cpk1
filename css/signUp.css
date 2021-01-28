@@ -1,3 +1,36 @@
+
+ul li {
+    list-style-type: none;
+    padding-left: 10px;
+}
+.activeChoice {
+    background-color: rgba(67,32,108);    
+    background-image: linear-gradient(to bottom,rgba(67,32,108,1) 10%,rgba(201,54,90,1) 100%) !important;
+    background-repeat: repeat-x;
+    color: white;
+}
+.toggled_block, .toggled_block2, .toggled_block_ba, .toggled_block_sm  {
+    display: none;
+    border: 3px solid;
+    width: 100%;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    z-index: 214748364;                                      
+    position: absolute;
+    margin-top: 40px;                                       
+    border: 3px solid;
+    border-image-source: linear-gradient(90deg, rgba(67,32,108,1) 21%, rgba(201,54,90,1) 100%);
+    border-image-slice: 1;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #fbfaff;
+    cursor: pointer;
+    padding-left: 0px;
+    padding-right: 0;
+}
+
 .btn-group>.btn:first-child {
     text-align: left;
 }

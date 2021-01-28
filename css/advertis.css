@@ -43,6 +43,7 @@
     font-weight: bolder; 
     text-transform: uppercase;
 }
+
 .title_resourse1 {
     font-size: 32px; 
     color:rgb(80, 78, 78)
@@ -52,6 +53,12 @@
     -webkit-background-clip: text;    
     -webkit-text-fill-color: transparent;
     font-weight: normal;
+}
+.t563__numberwrapper {
+    margin-left: 70px;
+}
+.t563__line {
+    right: -100px;
 }
 #rec89868138 .tn-elem[data-elem-id="1551096173491"] .tn-atom {
     color: #ffffff;

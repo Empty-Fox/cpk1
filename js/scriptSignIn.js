@@ -109,30 +109,10 @@ $('li.dropdown').hover(function () {
     
     $("#validateSignIN").on("click", validateSignIn);
 
-    $(document).ready(function() {
-        $('#select1').multiselect({ 
-        nonSelectedText:'Traffic types*',
-        includeSelectAllOption: true
-        
-        });
 
-        $('#select2').multiselect({ 
-            nonSelectedText:'Which verticals are you promoting?*',
-            includeSelectAllOption: true
-            });
 
-        $('#select3').multiselect({ 
-            nonSelectedText:'What is your regular budget?*'
-          
-        })
 
-        $('#select4').multiselect({ 
-            nonSelectedText:'How many years of experience do you have in the industry?*'
-        })
-        $('#select5').multiselect({ 
-            nonSelectedText:'I am*'
-        })
-        });
 
+    
 
  
