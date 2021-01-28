@@ -31,6 +31,7 @@ ul li {
     padding-right: 0;
 }
 
+
 .btn-group>.btn:first-child {
     text-align: left;
 }
@@ -146,9 +147,18 @@ height: 62px;
    
     box-shadow: none;
 }
+
 @media screen and (max-width:450px){
     .btn-group>.btn:first-child {
         text-align: left;
         display: flex;
+    }
+    .checkbox {
+        display: block;
+        min-height: 30px;
+    }
+    ul li {
+        min-height: 30px;
+        line-height:30px;
     }
 }
