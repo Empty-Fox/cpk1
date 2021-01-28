@@ -12,6 +12,7 @@
 body {  
     background-color: #ffffff;
 }
+
 .icon-holder {
     background:-moz-linear-gradient(top,  rgba(67, 32, 108) 0%, rgba(201, 54, 91) 100%); 
         background: -webkit-linear-gradient(top,  rgba(67, 32, 108) 0%, rgba(201, 54, 91) 100%); 
@@ -103,7 +104,7 @@ background-color: white;
     width: 100%;
 }
 .pub2 h2 {
-    font-size: 30px;
+    font-size: 26px;
     line-height: 1.55;
     font-weight: 400;
     background-position: center center;
@@ -133,7 +134,7 @@ background-color: white;
     margin-left: -50%;
   }
 .blockB {
-    margin-top: 200px; 
+    margin-top: 100px; 
     margin-left: auto; 
     margin-right: auto;
 }
@@ -199,7 +200,7 @@ background-color: white;
         top: 390px;
     }
     .pub2 h2 {
-        font-size: 20px;
+        font-size: 26px;
     }
     .blockB {
         margin-top: 150px;
@@ -253,7 +254,7 @@ background-color: white;
     .column1  {
         padding: 0;
     }
-    .pub2 h2 {
+    .pub2 h2, .block_counter h2{
         font-size: 18px;
         line-height: 18px;
     }
@@ -311,7 +312,7 @@ padding-left: 5px;
     .pub2 {
         margin-top: 40px;
     }
-    .pub2 h2 {
+    .pub2 h2, .block_counter h2 {
         font-size: 20px;
     }
     .row div:nth-child(2) {
@@ -365,7 +366,7 @@ padding-left: 5px;
             font-size: 22px;
             line-height: 26px;
         }
-        .pub2 h2 {
+        .pub2 h2 , .block_counter h2{
             font-size: 18px;
             line-height: 18px;
         }
@@ -419,7 +420,7 @@ padding-left: 5px;
         font-size: 20px;
         line-height: 20px;
     }
-    .pub2 h2 {
+    .pub2 h2, .block_counter h2 {
         font-size: 18px;
         line-height: 18px;
     }

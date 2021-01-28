@@ -160,6 +160,8 @@ body {
     font-weight: normal;
     font-size: 1.2rem;
     color: #fff;
+    -webkit-text-stroke: 0.1px #000000;
+    text-shadow: 1px 1px 2px black;
     font-style: normal;
     font-weight: 600;
     -webkit-transition: all 0.15s ease-in-out;
@@ -2079,9 +2081,7 @@ display: block;
     #section3 p:first-child {
         font-size: 30px;
     }
-    #rec86235114 {
-        margin-top: -20px;
-    }
+  
 }
 @media only screen and (max-width:419px) {
     .fa-4x {
@@ -2127,7 +2127,7 @@ display: block;
         height: auto;
     }
     #rec86235114 {
-        margin-top: -40px;
+        margin-top: -20px;
     }
     .section2_textColumn h2 {       
         padding-top: 20px;

@@ -125,7 +125,9 @@
     text-align: center;
     margin-bottom: 100px;
 }
-
+.btn_advertisers {
+    margin-top: 0;
+}
 @keyframes mymove {
     from {
         top: 0px;
@@ -269,7 +271,13 @@ transition: 1s;
   }
            
 #rec89346600 {
-    padding-top:150px;
+    padding-top:80px;
+}
+img {
+    vertical-align: middle;
+}
+.t396__artboard.t396__artboard1 img {
+    padding-top: 20%;
 }
 .ukr {
     padding-left: 50%;
@@ -286,6 +294,10 @@ transition: 1s;
 }
 .t-descr_lg {
     font-size: 18px;
+    line-height: initial;
+}
+.textBy {
+    padding-left: 50px;
 }
 @media screen and (max-width:1200px){
     #grid, .widgettitle, .vc_separator .vc_sep_holder .vc_sep_line {

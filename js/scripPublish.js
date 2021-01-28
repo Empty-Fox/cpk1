@@ -74,6 +74,22 @@ burgerMenu('.burger-menu');
 function BurgerDropdownMenu() {
     document.getElementById("myDropdown").classList.toggle("show");
 }
+function BurgerDropdownMenu1() {
+    document.getElementById("myDropdown1").classList.toggle("show");
+  }
+  
+  window.onclick = function (event) {
+    if (!event.target.matches('.dropbtn')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }
 
 window.onclick = function (event) {
     if (!event.target.matches('.dropbtn')) {
@@ -111,7 +127,7 @@ $('li.dropdown').hover(function () {
 // ............................................
 // Counter
 var counter = 0;
-var c = 4000000;
+var c = 8000000;
 c1 = 10;
 var i = setInterval(function () {
     $(".counter h1").html("$ " + numberWithSpaces(c));
@@ -124,11 +140,11 @@ var i = setInterval(function () {
     }
 }, 10);
 
-var cz = 4000100;
+var cz = 8000100;
 var timerCount = Math.floor(Math.random() * 10000) + 5000;
 function counterTimer() {
     var counterz = 0;
-    if (cz <= 6000000) {
+    if (cz <= 10000000) {
         var iz = setInterval(function () {
             var counterNumber = Math.floor(Math.random() * 100);
             cz1 = cz + counterNumber;
