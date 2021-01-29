@@ -359,6 +359,9 @@ body {
     z-index: -2;
 
 }
+.quality  {
+    margin-bottom: 30px;
+}
 .section2_textColumn {
     width: 50%; 
     padding: 50px; 
@@ -370,7 +373,7 @@ body {
     width: 120%;
 }
 .section2_textColumn p {
-    height: 350px;
+    height: auto;
 }
 .fa, .fas {
     font-weight: 600 !important;
@@ -1833,7 +1836,7 @@ display: block;
 
 @media only screen and (max-width: 1600px){
     .section2_textColumn {
-        width: 60%;
+        width: 70%;
         padding: 50px;
         padding-left: 5%;
         font-family: 'Monda', sans-serif;
@@ -1957,6 +1960,7 @@ display: block;
         width: 100%;
         height: 100%;
     }
+  
 }
 @media only screen and (max-width:750px) {
     .footer_menu div {       
@@ -1967,7 +1971,8 @@ display: block;
         width: 70%;
     }
     .container h1 {
-        line-height: .3;       
+        line-height: .3;
+        font-size: 35px !important;
     }
     .container h1 span.counter {
         font-size: 12px;
@@ -1975,6 +1980,16 @@ display: block;
     .row div:nth-child(2) h1 {
         font-size: 50px;
       }
+      .isDigital  {
+        width: 80%;
+    }
+    .ourMission {
+        width: 90%;
+    }
+    .weStrive {
+        width: 100%;
+        padding-bottom: 20px;
+    }
 }
 
 @media only screen and (max-width:650px) {
@@ -1991,7 +2006,9 @@ display: block;
     }
 }
 @media only screen and (max-width:600px) {
-  
+    .section2_textColumn {
+        padding: 20px;
+    }
     .counter h1 {      
         font-size: 30px;
     }
@@ -2047,7 +2064,9 @@ display: block;
 
 @media only screen and (max-width:500px){
     .Our_productionS {
-        font-size: 30px;
+        font-size: 30px;        
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .text_Whether , .section2_textColumn p{
         font-size: 16px;
@@ -2132,7 +2151,7 @@ display: block;
         height: 100%;
         padding: initial;
         padding-left: 5%;
-        padding-bottom: 20px;
+        padding-bottom: 0px;
         width: 90%;
     }
     .btn1 {
@@ -2145,7 +2164,7 @@ display: block;
         margin-top: -20px;
     }
     .section2_textColumn h2 {       
-        padding-top: 20px;
+        padding-top: 40px;
     }
     .t708__popup-container {        
         right: 7px;
@@ -2165,13 +2184,17 @@ display: block;
     }
     .row div:nth-child(1){
         order: 2;
-        padding-top: 0px;
+      padding-top: 40px;
     }
     .row div:nth-child(1) h2 {
       padding: 0;
     }
     .row div:nth-child(2){
         order: 1;
+        padding-top: 40px;
+    }
+    #rec86235121 {      
+        padding: 0px 0 40px;
     }
    .btn {
     margin-bottom: 80px;
@@ -2204,6 +2227,9 @@ display: block;
     }
     .btn:hover{
         padding: 5px;
+    }
+    .weStrive {       
+        padding-bottom: 0;
     }
 }
 
@@ -2243,6 +2269,26 @@ display: block;
     }
     #section3 h1 {
         font-size: 18px;
+    }
+    .row div:nth-child(5) {       
+        padding-top: 40px;
+    }
+    .isDigital  {
+        width: 80%;
+    }
+    .ourMission {
+        width: 100%;
+    }
+    .weStrive {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .section2_textColumn {       
+        width: 100%;
+        padding-right: 5%;
+    }
+    .text_Whether, .section2_textColumn p {
+        font-size: 14px;
     }
     
 }
