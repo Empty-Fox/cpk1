@@ -37,7 +37,7 @@ function burgerMenu(selector) {
   let menu = $(selector);
   let button = menu.find('.burger-menu_button', '.burger-menu_lines');
   let links = menu.find('.burger-menu_link');
-  let overlay = menu.find('.burger-menu_overlay');
+  // let overlay = menu.find('.blackBackground');
 
   button.on('click', (e) => {
     e.preventDefault();
@@ -45,7 +45,7 @@ function burgerMenu(selector) {
   });
 
   links.on('click', () => toggleMenu());
-  overlay.on('click', () => toggleMenu());
+  $('.blackBackground').on('click', () => toggleMenu());
 
   function toggleMenu() {
     menu.toggleClass('burger-menu_active');
