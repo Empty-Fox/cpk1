@@ -124,7 +124,9 @@ body {
     vertical-align: middle 
 
 }
-
+h2 {
+    margin-top: 0;
+}
 .row:after {
     content: "";
     display: table;
@@ -2143,9 +2145,7 @@ display: block;
     .section2_textColumn p {
         height: auto;
     }
-    #rec86235114 {
-        margin-top: -20px;
-    }
+   
     .section2_textColumn h2 {       
         padding-top: 20px;
     }
