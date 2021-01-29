@@ -52,8 +52,10 @@ function burgerMenu(selector) {
 
     if (menu.hasClass('burger-menu_active')) {
       $('body').css('overlow', 'hidden');
+      $('burger-menu_overlay').css('display', 'block');
     } else {
       $('body').css('overlow', 'visible');
+      $('burger-menu_overlay').css('display', 'none');
     }
   }
 }
