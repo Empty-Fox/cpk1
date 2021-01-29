@@ -1674,6 +1674,15 @@ animation: AnimationName 17s ease infinite;
   }
 .blackBackground {
     display: none;
+    width: 100%;
+    position: fixed;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.507);
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    z-index: 999999999;
 }
 
     
