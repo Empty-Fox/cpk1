@@ -120,6 +120,8 @@ body {
 .row {
     margin-left: 0;
     margin-right: 0;
+    display: table-cell;
+    vertical-align: middle 
 
 }
 
