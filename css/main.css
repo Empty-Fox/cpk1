@@ -1984,10 +1984,10 @@ display: block;
         width: 80%;
     }
     .ourMission {
-        width: 90%;
+        width: 80%;
     }
     .weStrive {
-        width: 100%;
+        width: 80%;
         padding-bottom: 20px;
     }
 }
@@ -2230,7 +2230,21 @@ display: block;
     }
     .weStrive {       
         padding-bottom: 0;
+        width: 60%;
     }
+    .ourMission {
+        width: 60%;
+    }
+    .isDigital {
+        width: 70%;
+    }
+}
+@media only screen and (max-width:375px){
+    .weStrive {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+  
 }
 
 @media only screen and (max-width:350px) {
@@ -2261,21 +2275,11 @@ display: block;
    .section2_textColumn h2 {
     padding-top: 20px;
     }
+   
+ 
 }
 
-@media only screen and (max-width:280px){
-    #section3 p:first-child {
-        font-size: 30px;
-    }
-    #section3 h1 {
-        font-size: 18px;
-    }
-    .row div:nth-child(5) {       
-        padding-top: 40px;
-    }
-    .isDigital  {
-        width: 80%;
-    }
+@media only screen and (max-width:300px){
     .ourMission {
         width: 100%;
     }
@@ -2290,6 +2294,19 @@ display: block;
     .text_Whether, .section2_textColumn p {
         font-size: 14px;
     }
+}
+@media only screen and (max-width:280px){
+    #section3 p:first-child {
+        font-size: 30px;
+    }
+    #section3 h1 {
+        font-size: 18px;
+    }
+    .row div:nth-child(5) {       
+        padding-top: 40px;
+    }
+  
+
     
 }
 
