@@ -1655,15 +1655,15 @@ animation: AnimationName 17s ease infinite;
     flex-flow: column;
     height: 100%;
     background: rgb(67,32,108);
-    background: linear-gradient(270deg, rgba(67,32,108,1) 21%, rgba(201,54,90,1) 100%);
-    background-size: 200% 200%;
+    /* background: linear-gradient(270deg, rgba(67,32,108,1) 21%, rgba(201,54,90,1) 100%); */
+    /* background-size: 200% 200%; */
     /* animation: gradient 15s ease infinite;   */
-    overflow-y: auto;
+    /* overflow-y: auto; */
     right: -100%;
-    -webkit-transition: 0.8s;
+    /* -webkit-transition: 0.8s;
     -moz-transition: 0.8s;
     -o-transition: 0.8s;
-    transition: 0.8s;
+    transition: 0.8s; */
   }
   .burger-menu_active .burger-menu_nav {
     right: 0;
