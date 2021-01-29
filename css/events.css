@@ -168,8 +168,9 @@
 }
 
 .t396__artboard1 {
-    width: 80%;
-    margin-left: 10%;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
     height: auto;
     padding-bottom: 75px;
 }
@@ -290,19 +291,16 @@ transition: 1s;
 img {
     vertical-align: middle;
 }
+.btnEvents {
+    left: calc(50% - 150px);
+}
 .t396__artboard.t396__artboard1 img {
     padding-top: 20%;
 }
 .ukr {
     padding-left: 50%;
 }
-  
-.t396__artboard1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;                
-    grid-template-rows: 400px 1fr;
-  
-}
+
 #rec83028643 .tn-elem[data-elem-id="1470210011265"] {
     top: 350px;
 }
@@ -312,6 +310,7 @@ img {
 }
 .textBy {
     padding-left: 50px;
+    padding-top: 50px;
 }
 @media screen and (max-width:1200px){
     #grid, .widgettitle, .vc_separator .vc_sep_holder .vc_sep_line {
@@ -403,11 +402,16 @@ img {
     .tn-form__submit {
         padding-left: 10px
     }
-    .btnEvents {
-        padding: 1em 11em;
-    }
+   
     #rec89346600 {
         padding-top: 0;
+    }
+    #grid, .widgettitle, .vc_separator .vc_sep_holder .vc_sep_line {
+        width: 90%;
+        margin-left: 5%;
+    }
+    .btnEvent {
+        width: 100%;
     }
 }
 
@@ -424,15 +428,13 @@ img {
         width: 90%;
         margin-left: 5%;
     }
-    .btnEvents {
-        padding: 1em 12em;
-    }
-    .textBy {
-        padding-top: 25px;
+   
+    .textBy {      
         width: 80%;
         margin-left: 10%;
         text-align: center;
         padding: 0;
+        padding-top: 25px;
     }
   
 }
@@ -465,7 +467,12 @@ img {
     }
     #rec89346600 {
         padding-top: 0px;
-        margin-top: -50px;
+    }
+    .btnEvents {
+        left: 0;
+    }
+    .textBlock {        
+        height: 250px;
     }
 }
 @media screen and (max-width:460px){
@@ -485,6 +492,22 @@ img {
     }
     #rec83028643 .tn-elem[data-elem-id="1470209944682"] {      
         top: 200px;
+    }
+    #rec89346600 {       
+        margin-top: 0px;
+    }
+    .btnEvents {
+        left: 0;
+    }
+    .textBlock {
+        height: auto;
+    }
+    #grid >div {
+        
+    margin-bottom: 50px;
+    }
+    #grid img {       
+        height: 250px;
     }
 }
 @media screen and (max-width:400px) {
@@ -558,5 +581,8 @@ img {
     }
     a .btn_advertisers { 
         width: 100%;
+    }
+    .btnEvent {
+        margin-left: 0;
     }
 }
