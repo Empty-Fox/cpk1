@@ -1672,7 +1672,9 @@ animation: AnimationName 17s ease infinite;
     -o-transition: 0.4s;
     transition: 0.4s;
   }
-
+.blackBackground {
+    display: none;
+}
 
     
   .burger-menu_link {
