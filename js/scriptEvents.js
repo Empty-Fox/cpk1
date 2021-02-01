@@ -131,4 +131,4 @@ span.onclick = function () {
 $("#validate").on("click", validate);
 
 
-  ////////////////////////////////modal
+
