@@ -1,3 +1,5 @@
+document.getElementById("year").innerHTML = new Date().getFullYear();
+
 // Background manu при скролі
 const navbar = document.querySelector('#nav86235111');
 window.onscroll = () => {
