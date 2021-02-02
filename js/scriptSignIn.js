@@ -93,9 +93,11 @@ $('li.dropdown').hover(function () {
     
    
     function validateSignIn() {     
-      email = $("#emailSignIn").val();  
+      var email = $("#emailSignIn").val(); 
+      var password =$("#passwordSignIn").val();
+       
     
-        if (validateEmail(email) ) {       
+        if (validateEmail(email)) {       
           $('#emailSignIn').val('');
     /////////////////////do something?//////////
         } else { 
@@ -112,8 +114,32 @@ $('li.dropdown').hover(function () {
     
     }
     
+
+
+    function validateRecovering (){
+      var emailRecovering = $('#emailRecovering').val();
+      if (validateEmail(emailRecovering)) {       
+        $('#emailRecovering').val('');
+        $('.wellcom').show();
+       setTimeout(function(){  $('.wellcom').hide();}, 3000)
+        
+  /////////////////////do something?//////////
+      } else { 
+           
+        $("#formPasswordRecovering .sc-gZMcBi.heBcqP").css("border", "1px solid red");
+          $("#emailRecovering").focus(function () {
+            $('#emailRecovering').val('');
+            $("#formPasswordRecovering .sc-gZMcBi.heBcqP").css("border", "none");
+          });
+                
+      }
+  
+      return false;  
+      console.log('click')
+    }
     $("#validateSignIN").on("click", validateSignIn);
 
+    $("#validateRecovering").on("click", validateRecovering);
 
 
 
