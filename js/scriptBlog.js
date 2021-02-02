@@ -1,3 +1,5 @@
+document.getElementById("year").innerHTML = new Date().getFullYear();
+//////////////////////////////////////////////////////////////////////
 /////////menu dark phone
     const navbar_advertisers = document.querySelector('#nav86235111_blog');
     window.onscroll = () => {

@@ -1,4 +1,8 @@
      
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+    //////////////////////////////////////////////////////////////////////////
+
+    
     const navbar_advertisers = document.querySelector('#nav86235111_careers');
     window.onscroll = () => {
     if (window.scrollY > 50) {

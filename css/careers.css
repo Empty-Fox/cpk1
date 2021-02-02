@@ -72,10 +72,10 @@ a:hover {
   .t-cover__wrapper {
       width: 100%;
       display: inline-block;
-      margin-top: 200px;
+      margin-top: 250px;
   }
 .btnVac {
-    padding: 1em 6em;
+    padding: 1em 1em;
 }
 .email_market {
     font-weight: 600;
