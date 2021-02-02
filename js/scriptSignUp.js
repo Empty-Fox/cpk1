@@ -282,53 +282,7 @@ function validate(email, password, skype, traffic_types, verticals, budget, expe
             });
         }
 
-        //   if (!validateName(company_name)) {
-        //     $company_name_border.css("border", "1px solid red");
-        //     $("#company_name").focus(function () {
-        //       $('#company_name').val('');
-        //       $company_name_border.css("border", "none");
-        //     });
-
-        //   }
-        //   if (!validateName(user_name)) {
-        //     $user_name_border.css("border", "1px solid red");
-        //     $("#user_name").focus(function () {
-        //       $('#user_name').val('');
-        //       $user_name_border.css("border", "none");
-        //     });
-
-        //   }
-        //   if (!validateWebname(website)) {
-        //     $website_border.css("border", "1px solid red");
-        //     $("#website").focus(function () {
-        //       $('#website').val('');
-        //       $website_border.css("border", "none");
-        //     });
-
-        //   }
-        //   if (he_is.length == 9) {
-        //     $he_is_border.css("border", "1px solid red");
-        //     $("#he_is").focus(function () {
-        //       $('#he_is').val('');
-        //       $he_is_border.css("border", "none");
-        //     });
-
-        //   }
-        //   if (verticals.length == 0) {
-        //     $verticals_border.css("border", "1px solid red");
-        //     $("#verticals").focus(function () {
-        //       $('#verticals').val('');
-        //       $verticals_border.css("border", "none");
-        //     });
-        //   }
-        //   if (messenger.length == 17) {
-        //     $messenger_border.css("border", "1px solid red");
-        //     $("#messenger").focus(function () {
-        //       $('#messenger').val('');
-        //       $messenger_border.css("border", "none");
-        //     });
-
-        //   }
+      
         if (checkCkecked1() == false) {
             $checked1_border.css("border", "1px solid red");
             $("#29cc8o9r6f8g").focus(function () {

@@ -91,17 +91,21 @@ $('li.dropdown').hover(function () {
         return re.test(email);
     }
     
-    
+   
     function validateSignIn() {     
-        const email = $("#emailSignIn").val();     
+      email = $("#emailSignIn").val();  
     
         if (validateEmail(email) ) {       
-            $('#emailSignIn').val('');
-           console.log('validateSignIn')
-    
+          $('#emailSignIn').val('');
+    /////////////////////do something?//////////
         } else { 
-            $('#emailSignIn').val('');
-            console.log('not validateSignIn')        
+             
+          $(".sc-gZMcBi.heBcqP.heBcqP1").css("border", "1px solid red");
+            $("#emailSignIn").focus(function () {
+              $('#emailSignIn').val('');
+              $(".sc-gZMcBi.heBcqP.heBcqP1").css("border", "none");
+            });
+                  
         }
     
         return false;   
