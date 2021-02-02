@@ -9,7 +9,7 @@ ul li {
     background-repeat: repeat-x;
     color: white;
 }
-.toggled_block, .toggled_block2, .toggled_block_ba, .toggled_block_sm  {
+.toggled_block, .toggled_block2, .toggled_block3,.toggled_block_ba, .toggled_block_sm  {
     display: none;
     border: 3px solid;
     width: 100%;

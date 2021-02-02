@@ -1,3 +1,6 @@
+document.getElementById("year").innerHTML = new Date().getFullYear();
+
+////////////////////////////////////////////////////////////
 $('#block_two').addClass('active');
 $('#block_one').removeClass('active');
 

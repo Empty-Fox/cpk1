@@ -92,10 +92,10 @@ function validateEmail(email) {
     const $blogForm = $("#blogForm");
     const $result_wrong = $("#result_wrong");
     const $email_border = $("#email");
-    const email = $("#email").val();
+    const subscribe_email = $("#email").val();
   
   
-    if (validateEmail(email)) {     
+    if (validateEmail(subscribe_email)) {     
      $result_good.fadeIn();
      $blogForm.css("display", "none");        
     } else {
@@ -112,10 +112,10 @@ function validateEmail(email) {
     const $blogForm2 = $("#blogForm2");
     const $result_wrong2 = $("#result_wrong2");
     const $email_border2 = $("#email2");
-    const email2 = $("#email2").val();
+    const subscribe_email = $("#email2").val();
   
   
-    if (validateEmail(email2)) {     
+    if (validateEmail(subscribe_email)) {     
      $result_good2.fadeIn();
      $blogForm2.css("display", "none");     
     } else {

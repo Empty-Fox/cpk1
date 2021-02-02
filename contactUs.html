@@ -163,9 +163,9 @@
 
                     <div class="t-cover__wrapper t-valign_middle" style="height:72vh; position: relative;z-index: 1;">
                         <div class="t181__title">
-                            <h1>                                
+                            <!-- <h1>                                
                                 Contact Us
-                            </h1>
+                            </h1> -->
                         </div>
                     </div>
                 </div>
@@ -212,6 +212,17 @@
                         </div>
                 </form>
             </div>
+            <div class="textBy" style="text-align: center;">
+                <a href="mailto:support@cpark.pro" style="color:#A6116c !important;border-bottom-color: #A6116c;">
+                    <p style="padding-bottom: 5px;">support@cpark.pro</p>
+                </a>
+
+                By clicking on the button, you consent to the
+                processing of personal data and agree to the <a href="policy.html" target="_blank">privacy
+                    policy</a>.
+            </div>
+
+
         </div>
 
     </div>
@@ -342,6 +353,9 @@ function validate() {
 
 $("#validateContactUs").on("click", validate);
 </script>
-
+<script >
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+////////////////////////////////////////////////////////////////////////
+</script>
 
 </html>

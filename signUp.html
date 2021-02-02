@@ -206,17 +206,17 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;">Registration</span>
             <div class="sc-gPEVay klhcVW">
-                <form class="dvqqKA" id="formsignIn" name="formsignIn" role="form" action="" method="POST">
+                <form class="dvqqKA" id="formsignUp" name="formsignUp" role="formSignUp" action="" method="POST">
                     <div class="drzuZL">
                         <div class="sc-gZMcBi heBcqP">
-                            <input type="email" name="email" id="emailSignIn" class="FWMkc" value=""
-                                placeholder="Email*">
+                            <input type="email" name="email" id="emailSignUp" class="FWMkc" value=""
+                                placeholder="Email*" style="z-index: 4;">
 
                         </div>
                         <div class="drzuZL">
                             <div class="sc-gZMcBi heBcqP">
-                                <input type="password" name="password" id="passwordSignIn" class="FWMkc" value=""
-                                    placeholder="Password*">
+                                <input type="password" name="password" id="passwordSignUp" class="FWMkc" value=""
+                                    placeholder="Password*" style="z-index: 4;">
                                 <p class="explain">Password must contain: 8 characters or more with at least one
                                     uppercase, lowercase, numeric digit and one of the allowed characters listed:
                                     @$!%*?&#</p>
@@ -236,7 +236,7 @@
                         </div>
 
 
-                        <div class="drzuZL">
+                        <div class="drzuZL types" >
                             <div class="sc-brqgnP hCScNH">
                                 <select id="select1" multiple="multiple">
                                     <option value="Native">Native</option>
@@ -255,7 +255,7 @@
                         </div>
 
 
-                        <div class="drzuZL">
+                        <div class="drzuZL verticals">
                             <div class="sc-brqgnP hCScNH">
                                 <select id="select2" multiple="multiple">
                                     <option value="Dating">Dating</option>
@@ -278,7 +278,7 @@
 
                         <div class="btn-group cselect" style="margin-top: 10px; ">
                             <button type="button" class=" text_div multiselect dropdown-toggle btn btn-default"
-                                data-toggle="dropdown" title="What is your regular budget?*">
+                                data-toggle="dropdown" id="budget" title="What is your regular budget?*">
                                 <span class="multiselect-selected-text">What is your regular budget?*</span>
                                 <b class="caret"></b>
                             </button>
@@ -292,7 +292,7 @@
                         </div>
 
                         <div class="btn-group cselect2" style="margin-top: 10px; ">
-                            <button type="button" class=" text_div2 multiselect dropdown-toggle btn btn-default"
+                            <button type="button" id="exper_year"  class=" text_div2 multiselect dropdown-toggle btn btn-default"
                                 data-toggle="dropdown"
                                 title="How many years of experience do you have in the industry?*">
                                 <span class="multiselect-selected-text">How many years of experience do you have in the
@@ -309,7 +309,7 @@
 
                         <div class="drzuZL" style="margin-top: -5px;">
                             <div class="sc-brqgnP hCScNH">
-                                <div class="sc-gZMcBi heBcqP"><input type="text" class="sc-gqjmRU FWMkc" value=""
+                                <div class="sc-gZMcBi heBcqP"><input type="text" id="where_find_us" class="sc-gqjmRU FWMkc" value=""
                                         placeholder="How did you find out about us?*">
 
                                 </div>
@@ -318,54 +318,31 @@
 
                         <div class="drzuZL" style="margin-top: -5px;">
                             <div class="sc-brqgnP hCScNH">
-                                <div class="sc-gZMcBi heBcqP"><input type="text" class="sc-gqjmRU FWMkc" value=""
+                                <div class="sc-gZMcBi heBcqP"><input type="text" class="sc-gqjmRU FWMkc" id="country" value=""
                                         placeholder="What is your country?"></div>
                             </div>
                         </div>
 
 
-                        <div class="drzuZL">
-                            <!-- <div class="sc-brqgnP hCScNH">
-                                <p class="sc-jWBwVP fxtcah"><span>I am</span><span class="sc-cMljjf jLKNPw">*</span></p>
-                                <div>
-                                    <div class="_3kSBfF3TVF1X5lP3RNkuho _1ts2PRiZMAcZZSvGzaQXF-"><input class=""
-                                            type="checkbox" name="6lsrcth32q8" id="6lsrcth32q8"><label
-                                            class="_3JLFIvj339x0rpoXFLccdE css-7c2d00" for="6lsrcth32q8"><span
-                                                class="_3JLFIvj339x0rpoXFLccdE css-7c2d00">an affiliate</span></label>
-                                    </div>
-                                    <div class="_3kSBfF3TVF1X5lP3RNkuho _1ts2PRiZMAcZZSvGzaQXF-"><input class=""
-                                            type="checkbox" name="423092krhlg" id="423092krhlg"><label
-                                            class="_3JLFIvj339x0rpoXFLccdE css-7c2d00" for="423092krhlg"><span
-                                                class="_3JLFIvj339x0rpoXFLccdE css-7c2d00">a network</span></label>
-                                    </div>
-                                    <div class="_3kSBfF3TVF1X5lP3RNkuho _1ts2PRiZMAcZZSvGzaQXF-"><input class=""
-                                            type="checkbox" name="70gmf9edcci" id="70gmf9edcci"><label
-                                            class="_3JLFIvj339x0rpoXFLccdE css-7c2d00" for="70gmf9edcci"><span
-                                                class="_3JLFIvj339x0rpoXFLccdE css-7c2d00">an agency</span></label>
-                                    </div>
-                                    <div class="_3kSBfF3TVF1X5lP3RNkuho _1ts2PRiZMAcZZSvGzaQXF-"><input class=""
-                                            type="checkbox" name="63svqhbtm15" id="63svqhbtm15"><label
-                                            class="_3JLFIvj339x0rpoXFLccdE css-7c2d00" for="63svqhbtm15"><span
-                                                class="_3JLFIvj339x0rpoXFLccdE css-7c2d00">a website/app/social page
-                                                owner</span></label></div>
-                                </div>
-                            </div> -->
-
-
-                            <div class="sc-brqgnP hCScNH">
-                                <select id="select5" multiple="multiple">
-                                    <option value="affiliate"> an affiliate</option>
-                                    <option value="network">a network</option>
-                                    <option value="network">an network</option>
-                                    <option value="website">a website/app/social page owner</option>
-                                </select>
-                            </div>
+                        <div class="btn-group cselect3" style="margin-top: 10px; ">
+                            <button type="button" id="he_is"  class=" text_div3 multiselect dropdown-toggle btn btn-default"
+                                data-toggle="dropdown"
+                                title="I am*">
+                                <span class="multiselect-selected-text">I am*</span>
+                                <b class="caret"></b>
+                            </button>
+                            <ul class="toggled_block3">
+                                <li value="affiliate">an affiliate</li>
+                                <li value="network">a network</li>
+                                <li value="agency">an agency</li>
+                                <li value="website">a website/app/social page owner</li>
+                            </ul>
                         </div>
 
 
                         <div class="drzuZL" style="margin-top: 0;">
                             <div class="sc-brqgnP hCScNH">
-                                <div class="sc-gZMcBi heBcqP"><input type="text" class="sc-gqjmRU FWMkc" value=""
+                                <div class="sc-gZMcBi heBcqP"><input type="text" id="some_information" class="sc-gqjmRU FWMkc" value=""
                                         placeholder="Please, include any additional information we should
                                     know about you"></div>
                             </div>
@@ -376,13 +353,13 @@
                             <div class="sc-jKJlTe hmEbCS">
                                 <div class="_3kSBfF3TVF1X5lP3RNkuho _1ts2PRiZMAcZZSvGzaQXF-"><input class=""
                                         type="checkbox" name="29cc8o9r6f8g" id="29cc8o9r6f8g"><label
-                                        class="_3JLFIvj339x0rpoXFLccdE css-7c2d00" for="29cc8o9r6f8g"><span
+                                        class="_3JLFIvj339x0rpoXFLccdE css-7c2d00" for="29cc8o9r6f8g" id="ckecked1"><span
                                             class="_3JLFIvj339x0rpoXFLccdE css-7c2d00"><span>I agree with<a
                                                     class="sc-hMqMXs hcWpVg" target="_blank" href="terms.html">Terms And
                                                     Conditions</a></span></span></label></div>
                                 <div class="_3kSBfF3TVF1X5lP3RNkuho _1ts2PRiZMAcZZSvGzaQXF- css-l9drzq"><input class=""
                                         type="checkbox" name="8otrbbqgo44" id="8otrbbqgo44"><label
-                                        class="_3JLFIvj339x0rpoXFLccdE css-7c2d00" for="8otrbbqgo44"><span
+                                        class="_3JLFIvj339x0rpoXFLccdE css-7c2d00" for="8otrbbqgo44" id="ckecked2"><span
                                             class="_3JLFIvj339x0rpoXFLccdE css-7c2d00">I hereby consent and allow the
                                             use of my and/or my companys information, including sharing with a third
                                             party, to assess, detect, prevent or otherwise enable detection and
@@ -392,7 +369,7 @@
                         </div>
 
                         <div class="sc-jzJRlG inMaaF">
-                            <button type="submit" class="btn_advertisers btnRegister" id="">
+                            <button type="button" class="btn_advertisers btnRegister" id="sendFormregistration">
                                 <span>Create Account</span></button>
 
 
