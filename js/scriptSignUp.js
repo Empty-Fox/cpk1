@@ -299,7 +299,7 @@ function validate(email, password, skype, traffic_types, verticals, budget, expe
         }
 
     }
-    alert ('good')
+    window.open('thankRegister.html');
     return (email, password, skype, traffic_types, verticals, budget, experience_years, where_find_us, country, he_is, some_information);
 }
 
