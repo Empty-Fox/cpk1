@@ -284,7 +284,7 @@ margin-top: 0;
 .btnSign:hover::after {
 z-index: 10;
 content: 'Sign In';
-padding: 1em 1em;
+padding: 1.5em .1em;
 text-decoration: none;
 color: #fff;
 font-size: 1rem;
@@ -311,7 +311,7 @@ box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 .btnRegister:hover::after {
     z-index: 10;
     content: 'Create Account';
-    padding: 1em 1em;
+    padding: 1.5em .1em;
     text-decoration: none;
     color: #fff;
     font-size: 1rem;

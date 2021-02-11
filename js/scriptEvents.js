@@ -1,7 +1,7 @@
 document.getElementById("year").innerHTML = new Date().getFullYear();
 //////////////////////////////////////////////////////////////////////
 
-const navbar_advertisers = document.querySelector('#nav86235111_events');
+const navbar_advertisers = document.querySelector('#nav86235111');
 window.onscroll = () => {
     if (window.scrollY > 50) {
         navbar_advertisers.classList.add('nav-active');
@@ -26,27 +26,27 @@ function burgerMenu(selector) {
     let button = menu.find('.burger-menu_button', '.burger-menu_lines');
     let links = menu.find('.burger-menu_link');
     // let overlay = menu.find('.blackBackground');
-  
+
     button.on('click', (e) => {
-      e.preventDefault();
-      toggleMenu();
+        e.preventDefault();
+        toggleMenu();
     });
-  
+
     links.on('click', () => toggleMenu());
     $('.blackBackground').on('click', () => toggleMenu());
-  
+
     function toggleMenu() {
-      menu.toggleClass('burger-menu_active');
-  
-      if (menu.hasClass('burger-menu_active')) {
-        $('body').css('overlow', 'hidden');
-        $('.blackBackground').css('display', 'block');
-      } else {
-        $('body').css('overlow', 'visible');
-        $('.blackBackground').css('display', 'none');
-      }
+        menu.toggleClass('burger-menu_active');
+
+        if (menu.hasClass('burger-menu_active')) {
+            $('body').css('overlow', 'hidden');
+            $('.blackBackground').css('display', 'block');
+        } else {
+            $('body').css('overlow', 'visible');
+            $('.blackBackground').css('display', 'none');
+        }
     }
-  }
+}
 
 burgerMenu('.burger-menu');
 
@@ -100,7 +100,7 @@ function validate() {
         $('#name').val('');
 
     } else {
-        if (!validateEmail(email)) {           
+        if (!validateEmail(email)) {
             $email_border.css("border", "1px solid red");
             $wrongEmail.css("display", "block");
             $("#email").focus(function () {
@@ -117,18 +117,18 @@ function validate() {
                 $wrongName.css("display", "none");
                 $name_border.css("border", "none");
             });
-        }       
+        }
     }
     return false;
 
 }
 
 ////////////modal btn close
-var span = document.getElementsByClassName("close")[0];
-var modal = document.getElementById("result_good");
-span.onclick = function () {
-    modal.style.display = "none";
-}
+// var span = document.getElementsByClassName("close")[0];
+// var modal = document.getElementById("result_good");
+// span.onclick = function () {
+//     modal.style.display = "none";
+// }
 /////////////////
 
 $("#validate").on("click", validate);

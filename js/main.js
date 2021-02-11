@@ -198,7 +198,7 @@ function validate(name, email, subject) {
 
     }
   }
-return (name, email, subject);
+  return (name, email, subject);
 }
 
 /////////////////////////////SEND MAIN PAGE FORM CONTACT US///////////////////////////////////
@@ -212,7 +212,7 @@ mainPage_contactUs_click.addEventListener("click", function () {
 
     console.log('validate')
   } else {
-    
+
     console.log('not validate')
   }
 

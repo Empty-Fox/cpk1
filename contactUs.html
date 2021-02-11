@@ -43,7 +43,7 @@
         .btnContactUs:hover::after {
             z-index: 10;
             content: 'SEND';
-            padding: 1.5em 1em;
+            padding: 1.5em 0em;
             text-decoration: none;
             color: #fff;
             font-size: 1rem;
@@ -73,96 +73,109 @@
     <div>
 
         <div>
-            <div id="nav86235111_signIn" class="t456">
-                <div class="t456__leftwrapper">
-                    <div class="logo">
-                        <a href="index.html" alt="cpark">
-                            <img src="img/1.png">
-                            <img class="rot" src="img/2.png">
-                            <img class="rotBig" src="img/3.png">
-                        </a>
-                    </div>
-
-                    <div class="main-header">
-                        <div class="right main-nav nav-with-separator">
-                            <ul id="menu-main_menu">
-                                <li><a href="index.html#company">Company</a></li>
-                                <li><a href="advertisers.html">Advertisers</a></li>
-                                <li><a href="publishers.html">Publishers</a></li>
-                                <li><a href="careers.html">Careers</a></li>
-                                <li><a href="blog.html">Blog</a></li>
-                                <li><a href="events.html">Events</a></li>
-                                <li class="dropdown"><a style="padding-bottom: 0;" class="dropdown-toggle"
-                                        data-toggle="dropdown">Account <b class="caret"></b></a>
-                                    <ul class="dropdown-menu" style="display: none;">
-                                        <li class="sign"><a сlass="sign_a" href="signIn.html">Sign in</a></li>
-                                        <li class="sign"><a сlass="sign_a" href="signUp.html">Sign up </a></li>
-                                    </ul>
-                                </li>
-                                <li class="current-menu-item"><a href="contactUs.html">Contact Us</a></li>
-
-                                <li class="dropdown"><a
-                                        style="padding-bottom: 0; padding-left: 40px; background-image: none;"
-                                        class="dropdown-toggle" data-toggle="dropdown">
-                                        <img src="img/iconfinder_United Kingdom(Great Britain)_16014.png"
-                                            style="width: 30px; margin-left: -30px; padding-right: 5px;">
-                                        EN
-                                    </a>
-                                    <b class="caret" style="color: white;"></b></a>
-                                    <ul class="dropdown-menu" style="display: none; margin-left: 20px;">
-                                        <li class="sign sign_a1">
-                                            <a сlass="sign_a" href="#">
-                                                <img src="img/iconfinder_Russian Federation_15967.png"
-                                                    style="width: 30px; margin-left: -30px; padding-right: 5px;">
-                                                RU
-                                    </ul>
-                                </li>
-                            </ul>
+            <div id="nav86235111" class="t456 t456__hidden ">
+                <div class="t456__maincontainer">
+                    <div class="t456__leftwrapper">
+                        <div class="logo">
+                            <a href="index.html" alt="cpark">
+                                <img src="img/1.png">
+                                <img class="rot" src="img/2.png">
+                                <img class="rotBig" src="img/3.png">
+                            </a>
                         </div>
-                    </div>
+                        <div class="main-header">
+                            <div class="right main-nav nav-with-separator">
+                                <ul id="menu-main_menu">
+                                    <li><a href="index.html">Company</a></li>
+                                    <li><a href="advertisers.html">Advertisers</a></li>
+                                    <li><a href="publishers.html">Publishers</a></li>
+                                    <li><a href="careers.html">Careers</a></li>
+                                    <li><a href="blog.html">Blog</a></li>
+                                    <li><a href="events.html">Events</a></li>
+                                    <li class="dropdown">
+                                        <a style="padding-bottom: 0;" class="dropdown-toggle"
+                                            data-toggle="dropdown">Account <b class="caret"></b></a>
+                                        <ul class="dropdown-menu" style="display: none; position: absolute;
+                                            padding: 0;
+                                            margin: 0;
+                                            width: 100%;">
+                                            <li class="sign" style=" padding-top: 10px; padding-left: 0;
+                                                padding-right: 0;
+                                                width: 100%;"><a сlass="sign_a" href="signIn.html">Sign in</a></li>
+                                            <li class="sign" style="   padding-top: 10px; padding-left: 0;
+                                                padding-right: 0;
+                                                width: 100%;"><a сlass="sign_a" href="signUp.html">Sign up </a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="current-menu-item"><a href="contactUs.html#contactUs_form">Contact Us</a>
+                                    </li>
 
-                    <div class="burger-menu">
-                        <a class="burger-menu_button">
-                            <spun class="burger-menu_lines"></spun>
-                        </a>
-                        <nav class="burger-menu_nav">
-                            <a href="index.html#company" class="burger-menu_link ">Company</a>
-                            <a href="advertisers.html" class="burger-menu_link ">Advertisers</a>
-                            <a href="publishers.html" class="burger-menu_link">Publishers</a>
-                            <a href="careers.html" class="burger-menu_link">Careers</a>
-                            <a href="blog.html" class="burger-menu_link">Blog</a>
-                            <a href="events.html" class="burger-menu_link">Events</a>
-                            <div class="dropbtn" onclick="BurgerDropdownMenu()">Account
-                                <div id="myDropdown" class="dropdown-content">
-                                    <a href="signIn.html">Sign in</a>
-                                    <a href="signUp.html">Sign up</a>
-                                </div>
+                                    <li class="dropdown"><a
+                                            style="padding-bottom: 0; padding-left: 40px; background-image: none;"
+                                            class="dropdown-toggle" data-toggle="dropdown">
+                                            <img src="img/iconfinder_United Kingdom(Great Britain)_16014.png"
+                                                style="width: 30px; margin-left: -30px;  padding-right: 5px;">
+                                            EN
+                                        </a>
+                                        <b class="caret" style="color: white;"></b></a>
+                                        <ul class="dropdown-menu" style="display: none; margin-left: 20px; position: absolute;
+                                        padding: 0;
+                                        margin: 0;
+                                        width: 100%;">
+                                            <li class="sign sign_a1" style=" padding-top: 10px; padding-left: 0;
+                                            padding-right: 0;
+                                            width: 100%;
+                                            padding-left: 40px;">
+                                                <a сlass="sign_a" href="#">
+                                                    <img src="img/iconfinder_Russian Federation_15967.png"
+                                                        style="width: 30px; margin-left: -30px; padding-right: 5px; ">
+                                                    RU
+                                        </ul>
+                                    </li>
+                                </ul>
                             </div>
-                            <a href="contactUs.html" class="burger-menu_link burger_active">Contact Us</a>
+                        </div>
 
-
-                            <div class="dropbtn" onclick="BurgerDropdownMenu1()">
-
-                                EN <img src="img/iconfinder_United Kingdom(Great Britain)_16014.png"
-                                    style="width: 30px; margin-right: 30px; padding-right: 5px;">
-                                <div id="myDropdown1" class="dropdown-content dropdown-content1">
-                                    <a href="#">
-                                        RU
-                                        <img src="img/iconfinder_Russian Federation_15967.png"
-                                            style="width: 30px; margin-left: 0px; padding-right: 5px;">
-
-                                    </a>
-
+                        <div class="burger-menu">
+                            <a class="burger-menu_button">
+                                <spun class="burger-menu_lines"></spun>
+                            </a>
+                            <nav class="burger-menu_nav">
+                                <a href="index.html#company" class="burger-menu_link ">Company</a>
+                                <a href="advertisers.html" class="burger-menu_link ">Advertisers</a>
+                                <a href="publishers.html" class="burger-menu_link">Publishers</a>
+                                <a href="careers.html" class="burger-menu_link">Careers</a>
+                                <a href="blog.html" class="burger-menu_link">Blog</a>
+                                <a href="events.html" class="burger-menu_link">Events</a>
+                                <div class="dropbtn" onclick="BurgerDropdownMenu()">Account
+                                    <div id="myDropdown" class="dropdown-content">
+                                        <a href="signIn.html">Sign in</a>
+                                        <a href="signUp.html">Sign up</a>
+                                    </div>
                                 </div>
-                            </div>
-                        </nav>
+                                <a href="contactUs.html" class="burger-menu_link burger_active">Contact Us</a>
+                                <div class="dropbtn" onclick="BurgerDropdownMenu1()">
+
+                                    EN <img src="img/iconfinder_United Kingdom(Great Britain)_16014.png"
+                                        style="width: 30px; margin-right: 30px; padding-right: 5px;">
+                                    <div id="myDropdown1" class="dropdown-content dropdown-content1">
+                                        <a href="#">
+                                            RU
+                                            <img src="img/iconfinder_Russian Federation_15967.png"
+                                                style="width: 30px; margin-left: 0px; padding-right: 5px;">
+
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </nav>
+
+                        </div>
 
                     </div>
-
-
                 </div>
-
             </div>
+
             <div class="blackBackground"></div>
         </div>
 
@@ -320,8 +333,8 @@
             $('#nameContactUs').val('');
             $('#messageContactUs').val('');
             $('.wellcom').show();
-            setTimeout(function(){  $('.wellcom').hide();},2000)
-          
+            setTimeout(function () { $('.wellcom').hide(); }, 2000)
+
 
         } else {
             if (!validateEmail(email)) {

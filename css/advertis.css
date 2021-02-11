@@ -8,7 +8,9 @@
     margin-left: 10%;
 
 }
-
+.btn1:hover::after {   
+    height: 3.5rem;
+}
 
 .itemTitle {
     text-align: center;
@@ -473,7 +475,9 @@ ul {
     display: table-cell;
     vertical-align: middle
 }
-
+.owl-carousel.owl-loaded {
+    display: inline-block !important;
+}
 #testimonials-list .shadow-effect p {
     margin: 0 0 17px 0;
     font-weight: 300;
@@ -483,6 +487,7 @@ ul {
     font-style: italic;
     margin-bottom: 1em;
     padding: 0 14px;
+    display: table;
 }
 
 .testimonial-name a {

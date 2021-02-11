@@ -79,8 +79,7 @@ background-color: white;
 }
 .btnPubl:hover::after {
     z-index: 10;
-    content: 'Became CPARK Publisher';
-    padding: 1em 1em;
+    content: 'Became CPARK Publisher';  
     text-decoration: none;
     color: #fff;
     font-size: 1rem;

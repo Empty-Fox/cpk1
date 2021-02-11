@@ -282,7 +282,7 @@ function validate(email, password, skype, traffic_types, verticals, budget, expe
             });
         }
 
-      
+
         if (checkCkecked1() == false) {
             $checked1_border.css("border", "1px solid red");
             $("#29cc8o9r6f8g").focus(function () {

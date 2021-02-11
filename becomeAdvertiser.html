@@ -79,6 +79,7 @@
             padding-bottom: 0;
             margin-bottom: 0;
         }
+
         .jLpmCm {
             margin-bottom: -30px;
         }
@@ -86,116 +87,130 @@
 
 <body>
 
-    <div>
-
-        <div>
-            <div id="nav86235111_signIn" class="t456">                
-                    <div class="t456__leftwrapper">
-                        <div class="logo">
-                            <a href="index.html" alt="cpark">
-                                <img src="img/1.png">
-                                <img class="rot" src="img/2.png">
-                                <img class="rotBig" src="img/3.png">
-                            </a>
-                        </div>
-
-                        <div class="main-header">
-                            <div class="right main-nav nav-with-separator">
-                                <ul id="menu-main_menu">
-                                    <li><a href="index.html#company">Company</a></li>
-                                    <li><a href="advertisers.html">Advertisers</a></li>
-                                    <li><a href="publishers.html">Publishers</a></li>
-                                    <li><a href="careers.html">Careers</a></li>
-                                    <li><a href="blog.html">Blog</a></li>
-                                    <li><a href="events.html">Events</a></li>
-                                    <li class="dropdown current-menu-item"><a style="padding-bottom: 0;"
-                                            class="dropdown-toggle" data-toggle="dropdown">Account <b
-                                                class="caret"></b></a>
-                                        <ul class="dropdown-menu" style="display: none;">
-                                            <li class="sign"><a сlass="sign_a" href="signIn.html">Sign in</a></li>
-                                            <li class="sign"><a сlass="sign_a" href="signUp.html">Sign up </a></li>
-                                        </ul>
-                                    </li>
-
-                                    <li><a href="contactUs.html">Contact Us</a></li>
-                                    <li class="dropdown"><a
-                                            style="padding-bottom: 0; padding-left: 40px; background-image: none;"
-                                            class="dropdown-toggle" data-toggle="dropdown">
-                                            <img src="img/iconfinder_United Kingdom(Great Britain)_16014.png"
-                                                style="width: 30px; margin-left: -30px; padding-right: 5px;">
-                                            EN
-                                        </a>
-                                        <b class="caret" style="color: white;"></b></a>
-                                        <ul class="dropdown-menu" style="display: none; margin-left: 20px;">
-                                            <li class="sign sign_a1">
-                                                <a сlass="sign_a" href="#">
-                                                    <img src="img/iconfinder_Russian Federation_15967.png"
-                                                        style="width: 30px; margin-left: -30px; padding-right: 5px;">
-                                                    RU
-                                        </ul>
-                                    </li>
+    <div id="nav86235111" class="t456 t456__hidden ">
+        <div class="t456__maincontainer">
+            <div class="t456__leftwrapper">
+                <div class="logo">
+                    <a href="index.html" alt="cpark">
+                        <img src="img/1.png">
+                        <img class="rot" src="img/2.png">
+                        <img class="rotBig" src="img/3.png">
+                    </a>
+                </div>
+                <div class="main-header">
+                    <div class="right main-nav nav-with-separator">
+                        <ul id="menu-main_menu">
+                            <li><a href="index.html">Company</a></li>
+                            <li class="current-menu-item"><a href="advertisers.html">Advertisers</a></li>
+                            <li><a href="publishers.html">Publishers</a></li>
+                            <li><a href="careers.html">Careers</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="events.html">Events</a></li>
+                            <li class="dropdown">
+                                <a style="padding-bottom: 0;" class="dropdown-toggle" data-toggle="dropdown">Account <b
+                                        class="caret"></b></a>
+                                <ul class="dropdown-menu" style="display: none; position: absolute;
+                                    padding: 0;
+                                    margin: 0;
+                                    width: 100%;">
+                                    <li class="sign" style=" padding-top: 10px; padding-left: 0;
+                                        padding-right: 0;
+                                        width: 100%;"><a сlass="sign_a" href="signIn.html">Sign in</a></li>
+                                    <li class="sign" style="   padding-top: 10px; padding-left: 0;
+                                        padding-right: 0;
+                                        width: 100%;"><a сlass="sign_a" href="signUp.html">Sign up </a></li>
                                 </ul>
+                            </li>
+                            <li><a href="contactUs.html#contactUs_form">Contact Us</a></li>
+
+                            <li class="dropdown"><a
+                                    style="padding-bottom: 0; padding-left: 40px; background-image: none;"
+                                    class="dropdown-toggle" data-toggle="dropdown">
+                                    <img src="img/iconfinder_United Kingdom(Great Britain)_16014.png"
+                                        style="width: 30px; margin-left: -30px;  padding-right: 5px;">
+                                    EN
+                                </a>
+                                <b class="caret" style="color: white;"></b></a>
+                                <ul class="dropdown-menu" style="display: none; margin-left: 20px; position: absolute;
+                                padding: 0;
+                                margin: 0;
+                                width: 100%;">
+                                    <li class="sign sign_a1" style=" padding-top: 10px; padding-left: 0;
+                                    padding-right: 0;
+                                    width: 100%;
+                                    padding-left: 40px;">
+                                        <a сlass="sign_a" href="#">
+                                            <img src="img/iconfinder_Russian Federation_15967.png"
+                                                style="width: 30px; margin-left: -30px; padding-right: 5px; ">
+                                            RU
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="burger-menu">
+                    <a class="burger-menu_button">
+                        <spun class="burger-menu_lines"></spun>
+                    </a>
+                    <nav class="burger-menu_nav">
+                        <a href="index.html#company" class="burger-menu_link ">Company</a>
+                        <a href="advertisers.html" class="burger-menu_link burger_active">Advertisers</a>
+                        <a href="publishers.html" class="burger-menu_link">Publishers</a>
+                        <a href="careers.html" class="burger-menu_link">Careers</a>
+                        <a href="blog.html" class="burger-menu_link">Blog</a>
+                        <a href="events.html" class="burger-menu_link">Events</a>
+                        <div class="dropbtn" onclick="BurgerDropdownMenu()">Account
+                            <div id="myDropdown" class="dropdown-content">
+                                <a href="signIn.html">Sign in</a>
+                                <a href="signUp.html">Sign up</a>
                             </div>
                         </div>
+                        <a href="contactUs.html" class="burger-menu_link">Contact Us</a>
+                        <div class="dropbtn" onclick="BurgerDropdownMenu1()">
 
-                        <div class="burger-menu">
-                            <a class="burger-menu_button">
-                                <spun class="burger-menu_lines"></spun>
-                            </a>
-                            <nav class="burger-menu_nav">
-                                <a href="index.html#company" class="burger-menu_link ">Company</a>
-                                <a href="advertisers.html" class="burger-menu_link ">Advertisers</a>
-                                <a href="publishers.html" class="burger-menu_link">Publishers</a>
-                                <a href="careers.html" class="burger-menu_link">Careers</a>
-                                <a href="blog.html" class="burger-menu_link">Blog</a>
-                                <a href="events.html" class="burger-menu_link">Events</a>
-                                <div class="dropbtn burger_active" onclick="BurgerDropdownMenu()">Account
-                                    <div id="myDropdown" class="dropdown-content">
-                                        <a href="signIn.html">Sign in</a>
-                                        <a href="signUp.html">Sign up</a>
-                                    </div>
-                                </div>
-                                <a href="contactUs.html" class="burger-menu_link">Contact Us</a>
-                                <div class="dropbtn" onclick="BurgerDropdownMenu1()">
+                            EN <img src="img/iconfinder_United Kingdom(Great Britain)_16014.png"
+                                style="width: 30px; margin-right: 30px; padding-right: 5px;">
+                            <div id="myDropdown1" class="dropdown-content dropdown-content1">
+                                <a href="#">
+                                    RU
+                                    <img src="img/iconfinder_Russian Federation_15967.png"
+                                        style="width: 30px; margin-left: 0px; padding-right: 5px;">
 
-                                    EN <img src="img/iconfinder_United Kingdom(Great Britain)_16014.png"
-                                        style="width: 30px; margin-right: 30px; padding-right: 5px;">
-                                    <div id="myDropdown1" class="dropdown-content dropdown-content1">
-                                        <a href="#">
-                                            RU
-                                            <img src="img/iconfinder_Russian Federation_15967.png"
-                                                style="width: 30px; margin-left: 0px; padding-right: 5px;">
+                                </a>
 
-                                        </a>
-
-                                    </div>
-                                </div>
-                            </nav>                            
+                            </div>
                         </div>
+                    </nav>
 
-                    </div>            
+                </div>
+
             </div>
-            <div class="blackBackground"></div>
         </div>
+    </div>
 
-        <div>
-            <div class="t-cover" style="background-position:bottom;            
+
+    <div class="blackBackground"></div>
+
+
+    <div>
+        <div class="t-cover" style="background-position:bottom;            
             background: linear-gradient(to bottom, rgba(173, 56, 103, 0.308), rgba(23, 2, 59, 0.185)), url('img/becomeCPARKbackground.jpg');
             ">
 
-                <div class="t-container">
+            <div class="t-container">
 
-                    <div class="t-cover__wrapper t-valign_middle" style="height:72vh; position: relative;z-index: 1;">
-                        <div class="t181__title">
-                            <h1>Become CPARK Advertiser
-                            </h1>
-                        </div>
+                <div class="t-cover__wrapper t-valign_middle" style="height:72vh; position: relative;z-index: 1;">
+                    <div class="t181__title">
+                        <h1>Become CPARK Advertiser
+                        </h1>
                     </div>
                 </div>
             </div>
         </div>
-
     </div>
+
+
 
 
     <div>
@@ -205,13 +220,14 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;">Registration</span>
             <div class="sc-gPEVay klhcVW">
-                <form class="dvqqKA" id="formBecomeAdvertiser" name="formBecomeAdvertiser" role="becamAdvertiser" action="" method="POST">
+                <form class="dvqqKA" id="formBecomeAdvertiser" name="formBecomeAdvertiser" role="becamAdvertiser"
+                    action="" method="POST">
                     <div class="drzuZL">
-                     
+
                         <div class="drzuZL">
                             <div class="sc-gZMcBi heBcqP">
                                 <input type="text" name="company_name" id="company_name" class="FWMkc" value=""
-                                    placeholder="Company name*" style="z-index: 4;">                                
+                                    placeholder="Company name*" style="z-index: 4;">
                             </div>
                         </div>
                         <div class="drzuZL" style="margin-top: -5px;">
@@ -224,13 +240,14 @@
                         <div class="sc-gZMcBi heBcqP">
                             <input type="text" name="website" id="website" class="FWMkc" value=""
                                 placeholder="Company website*">
-                        </div>                  
+                        </div>
 
-                      
+
                         <div class="btn-group cselect_ba" style="margin-top: 20px; ">
-                            <button type="button" id="he_is" name="he_is" class="text_div_ba multiselect dropdown-toggle btn btn-default"
-                                data-toggle="dropdown" title="You are:*">
-                                <span class="multiselect-selected-text" id="he_is" name="he_is" >You are:*</span>                              
+                            <button type="button" id="he_is" name="he_is"
+                                class="text_div_ba multiselect dropdown-toggle btn btn-default" data-toggle="dropdown"
+                                title="You are:*">
+                                <span class="multiselect-selected-text" id="he_is" name="he_is">You are:*</span>
                                 <b class="caret"></b>
                             </button>
                             <ul class="toggled_block_ba">
@@ -239,39 +256,41 @@
                                 <li value="Network+Advertiser">Network + Advertiser</li>
                             </ul>
                         </div>
-                      
+
 
                         <div class="sc-gZMcBi heBcqP">
                             <input type="text" name="verticals" id="verticals" class="FWMkc" value=""
                                 placeholder="What verticals do you work with?*">
-                        </div>   
-                        
-                    
+                        </div>
+
+
 
 
                         <div class="btn-group cselect_sm" style="margin-top: 20px; ">
-                            <button type="button" id="messenger" class=" text_div_sm multiselect dropdown-toggle btn btn-default"
-                                data-toggle="dropdown" title="Select messenger*">
-                                <span class="multiselect-selected-text">Select messenger*</span>                              
+                            <button type="button" id="messenger"
+                                class=" text_div_sm multiselect dropdown-toggle btn btn-default" data-toggle="dropdown"
+                                title="Select messenger*">
+                                <span class="multiselect-selected-text">Select messenger*</span>
                                 <b class="caret"></b>
                             </button>
-                            <ul class="toggled_block_sm" >
+                            <ul class="toggled_block_sm">
                                 <li value="less1">Skype</li>
-                                <li value="less2">Telegram</li>                                                      
+                                <li value="less2">Telegram</li>
                             </ul>
                         </div>
 
-                       
+
 
                         <div class="drzuZL">
                             <div class="sc-jKJlTe hmEbCS">
-                                <div class="_3kSBfF3TVF1X5lP3RNkuho _1ts2PRiZMAcZZSvGzaQXF-" ><input class=""
+                                <div class="_3kSBfF3TVF1X5lP3RNkuho _1ts2PRiZMAcZZSvGzaQXF-"><input class=""
                                         type="checkbox" name="29cc8o9r6f8g" id="29cc8o9r6f8g"><label
-                                        class="_3JLFIvj339x0rpoXFLccdE css-7c2d00" for="29cc8o9r6f8g" id="ckecked1" ><span
-                                            class="_3JLFIvj339x0rpoXFLccdE css-7c2d00"><span>I agree with<a
-                                                    class="sc-hMqMXs hcWpVg" target="_blank" href="terms.html">Terms And
+                                        class="_3JLFIvj339x0rpoXFLccdE css-7c2d00" for="29cc8o9r6f8g"
+                                        id="ckecked1"><span class="_3JLFIvj339x0rpoXFLccdE css-7c2d00"><span>I agree
+                                                with<a class="sc-hMqMXs hcWpVg" target="_blank" href="terms.html">Terms
+                                                    And
                                                     Conditions</a></span></span></label></div>
-                                <div class="_3kSBfF3TVF1X5lP3RNkuho _1ts2PRiZMAcZZSvGzaQXF- css-l9drzq" ><input class=""
+                                <div class="_3kSBfF3TVF1X5lP3RNkuho _1ts2PRiZMAcZZSvGzaQXF- css-l9drzq"><input class=""
                                         type="checkbox" name="8otrbbqgo44" id="8otrbbqgo44"><label
                                         class="_3JLFIvj339x0rpoXFLccdE css-7c2d00" for="8otrbbqgo44" id="ckecked2"><span
                                             class="_3JLFIvj339x0rpoXFLccdE css-7c2d00">I hereby consent and allow the
@@ -300,7 +319,8 @@
         <div class='t396'>
             <div class="t396__artboard">
                 <div class='t396__elem tn-elem tn-elem__862351271470210011265' data-elem-id='1470210011265'>
-                    <div class='tn-atom'>© <span id="year"></span> All rights reserved. CPARK OU<br /><a href="mailto:support@cpark.info"
+                    <div class='tn-atom'>© <span id="year"></span> All rights reserved. CPARK OU<br /><a
+                            href="mailto:support@cpark.info"
                             style="color:rgb(19, 3, 12) !important;border-bottom-color: rgb(56, 16, 23);">support@cpark.info</a>
                     </div>
                 </div>
@@ -338,6 +358,7 @@
             </div>
         </div>
     </div>
+
     </div>
 </body>
 

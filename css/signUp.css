@@ -36,7 +36,7 @@ ul li {
     text-align: left;
 }
 
-    .open>.dropdown-menu {
+    #formsignUp .open>.dropdown-menu, #formBecomeAdvertiser .open>.dropdown-menu  {
     display: block;
     border: 3px solid;
     border-image-source: linear-gradient(90deg, rgba(67,32,108,1) 21%, rgba(201,54,90,1) 100%);
@@ -45,6 +45,7 @@ ul li {
     padding-bottom: 10px;
     padding-top: 10px;
 }
+
 .multiselect-container>li>a {
     padding: 0;
     padding-left: 10px !important;
@@ -115,7 +116,7 @@ ul li {
         border-bottom-color: rgb(202, 202, 205);
         background-color: transparent;
     }
-    .dropdown-menu {
+   #formsignUp .dropdown-menu {
     background-color: #fbfaff;
     width: 100%;
     padding:0;
