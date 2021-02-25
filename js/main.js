@@ -1,7 +1,7 @@
 document.getElementById("year").innerHTML = new Date().getFullYear();
 
-// Background manu при скролі
-const navbar = document.querySelector('#nav86235111');
+// Background menu при скролі
+const navbar = document.querySelector('#nav');
 window.onscroll = () => {
   if (window.scrollY > 50) {
     navbar.classList.add('nav-active');
